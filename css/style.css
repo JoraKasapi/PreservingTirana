@@ -22,20 +22,20 @@ h1, h2, h3, p {
 
 .pink-icon > p {
   color: #ff0dbf;
-  font-size: 5em;
+  font-size: 5rem;
   font-weight: bold;
-  margin-top: -0.5em;
+  margin-top: -0.5rem;
 }
 
 .leaflet-popup-content-wrapper {
-  border: 0.25em #ff0dbf solid;
+  border: 0.25rem #ff0dbf solid;
   border-radius: 0;
   box-shadow: 0 0 0 0;
 }
 
 .leaflet-popup-content-wrapper .leaflet-popup-content {
-  margin: 0.25em;
-  margin-right: 1.5em;
+  margin: 0.25rem;
+  margin-right: 1.5rem;
 }
 
 .leaflet-popup-content-wrapper .leaflet-popup-content p {
@@ -55,19 +55,19 @@ h1, h2, h3, p {
 
 .info-container {
   flex: 1;
-  padding: 1em;
+  padding: 1rem;
   max-height: 100%;
   overflow-y: scroll;
 }
 
 .event-item {
-  border: 0.25em #000 solid;
-  padding: 0.25em;
-  margin: 0.25em 0;
+  border: 0.25rem #000 solid;
+  padding: 0.25rem;
+  margin: 0.25rem 0;
 }
 
 .event-item > .event-description {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .event-description a {
@@ -96,4 +96,8 @@ h1, h2, h3, p {
   .map-container {
     height: 50vh;
   }
+}
+
+@media screen and (max-width: 1080px) and (min-resolution: 3dppx) {
+
 }
