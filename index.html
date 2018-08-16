@@ -57,7 +57,7 @@ var eventsLayer = omnivore.geojson('copyright_action_day_2018.geojson')
       var link = description.match(regexp) ? description.match(regexp)[0] : undefined;
       description = description.replace(link, '');
 
-      if (description === '') {
+      if (description === '' && link !== undefined) {
         description = 'Link';
       }
 
@@ -65,8 +65,10 @@ var eventsLayer = omnivore.geojson('copyright_action_day_2018.geojson')
 
       if (link) {
         eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${link}" target="_blank">${description}</a></p>`;
-      } else {
+      } else if (description) {
         eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
+      } else {
+        eventListItemContent = `<h3>${title}</h3>`;
       }
 
       layer.bindPopup(eventListItemContent);
