@@ -84,7 +84,7 @@ h1, h2, h3, p {
   border: 1px #ff0dbf solid;
 }
 
-@media screen and (max-width: 1080px) and (min-resolution: 3dppx) {
+@media screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px) {
   body {
     flex-wrap: wrap;
     height: auto;
