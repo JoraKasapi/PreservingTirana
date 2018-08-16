@@ -84,6 +84,11 @@ h1, h2, h3, p {
   color: #ff0dbf;
 }
 
+.footer {
+  font-size: 0.7rem;
+  margin: 0.5rem 0;
+}
+
 @media screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px) {
   body {
     flex-wrap: wrap;
