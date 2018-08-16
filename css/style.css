@@ -76,12 +76,12 @@ h1, h2, h3, p {
   background-color: #ff0dbf;
   color: white;
   padding: 3px 2px 0px 2px;
+  border: 1px #ff0dbf solid;
 }
 
 .event-description a:hover {
   background-color: white;
   color: #ff0dbf;
-  border: 1px #ff0dbf solid;
 }
 
 @media screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px) {
