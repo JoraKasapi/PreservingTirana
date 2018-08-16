@@ -83,11 +83,16 @@ var Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/
 	ext: 'png'
 });
 
-map.touchZoom.disable();
-map.doubleClickZoom.disable();
-map.scrollWheelZoom.disable();
-map.boxZoom.disable();
-map.keyboard.disable();
-document.querySelector(".leaflet-control-zoom").style.visibility = "hidden";
+var mq = window.matchMedia('screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px)');
+if(mq.matches) {
+  console.log('small device => map zoomable now');
+} else {
+  map.touchZoom.disable();
+  map.doubleClickZoom.disable();
+  map.scrollWheelZoom.disable();
+  map.boxZoom.disable();
+  map.keyboard.disable();
+  document.querySelector(".leaflet-control-zoom").style.visibility = "hidden";
+}
   </script>
 </body>
