@@ -83,3 +83,17 @@ h1, h2, h3, p {
   color: #ff0dbf;
   border: 1px #ff0dbf solid;
 }
+
+@media (max-width: 960px) {
+  body {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  body > * {
+    flex: 1 1 100% !important;
+    width: 100%;
+  }
+  .map-container {
+    height: 50vh;
+  }
+}
