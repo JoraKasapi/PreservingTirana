@@ -1,0 +1,85 @@
+body {
+  font-family: 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+.map-container {
+  flex: 2;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.pink-icon > p {
+  color: #ff0dbf;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+
+.leaflet-popup-content-wrapper {
+  border: 0.25em #ff0dbf solid;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  margin: 0.25em;
+  margin-right: 1.5em;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.leaflet-popup-close-button {
+  color: #ff0dbf !important;
+}
+.leaflet-popup-close-button:hover {
+  opacity: 0.5;
+}
+
+.info-container {
+  flex: 1;
+  padding: 1em;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.event-item {
+  border: 0.25em #000 solid;
+  padding: 0.25em;
+  margin: 0.25em 0;
+}
+
+.event-item > .event-description {
+  font-size: 0.8em;
+}
+
+.event-description a {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ff0dbf;
+  color: white;
+  padding: 3px 2px 0px 2px;
+}
+
+.event-description a:hover {
+  background-color: white;
+  color: #ff0dbf;
+  border: 1px #ff0dbf solid;
+}
