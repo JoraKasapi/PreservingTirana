@@ -24,7 +24,7 @@ h1, h2, h3, p {
   color: #ff0dbf;
   font-size: 5rem;
   font-weight: bold;
-  margin-top: -0.5rem;
+  margin: -3.25rem 0 0 -1rem;
 }
 
 .leaflet-popup-content-wrapper {
