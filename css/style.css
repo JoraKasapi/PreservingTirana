@@ -70,7 +70,7 @@ h1, h2, h3, p {
   font-size: 0.8rem;
 }
 
-.event-description a {
+.event-description a, .info-container a {
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
