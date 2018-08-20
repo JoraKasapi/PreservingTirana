@@ -20,13 +20,6 @@ h1, h2, h3, p {
   width: 100%;
 }
 
-.pink-icon > p {
-  color: #ff0dbf;
-  font-size: 5rem;
-  font-weight: bold;
-  margin: -3.25rem 0 0 -1rem;
-}
-
 .leaflet-popup-content-wrapper {
   border: 0.25rem #ff0dbf solid;
   border-radius: 0;

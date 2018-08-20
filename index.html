@@ -40,7 +40,11 @@ var eventList = document.querySelector('.event-list')
 var map = L.map('map').setView([50,5.0], 4);
 L.tileLayer.provider('Stamen.Toner').addTo(map);
 
-var pinkIcon = L.divIcon({className: 'pink-icon', html: '<p>×</p>'});
+var pinkIcon = L.icon({
+    iconUrl: 'img/map-pin.png',
+    iconRetinaUrl: 'img/favicon.png',
+    iconSize: [48, 48]
+});
 
 var eventsLayer = omnivore.geojson('copyright_action_day_2018.geojson')
   .on('ready', function() {
