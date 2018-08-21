@@ -10,7 +10,15 @@ Add the following line to the end of the ```<body>``` of your website. Important
 <script type="text/javascript" src="https://saveyourinternet.today/peel/snippet.js"></script>
 ```
 
-There are a couple of settings that you can change inside the Javascript file (first 4 lines), but you will have to host it yourself if you make any changes. (Recommended anyways!)
+If you want to have the peel in another corner than the left upper one, you can use one of these scripts instead:
+
+```
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-top.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-left-bottom.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-bottom.js"></script>
+```
+
+Alternatively, you can also host the script yourself and change a couple of settings inside the Javascript file (first 4 lines).
 
 ```
 var peelCorner = 'left-top' // 'left-top' or 'right-top' or 'left-bottom' or 'right-bottom'
