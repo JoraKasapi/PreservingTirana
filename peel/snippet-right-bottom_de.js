@@ -1,7 +1,7 @@
-var peelCorner = 'left-top' // 'left-top' or 'right-top' or 'left-bottom' or 'right-bottom'
+var peelCorner = 'right-bottom' // 'left-top' or 'right-top' or 'left-bottom' or 'right-bottom'
 var peelClass = 'copyright-peel'
-var peelBg = 'https://saveyourinternet.today/peel/bg.svg'
-var peelBgBottom = 'https://saveyourinternet.today/peel/bg_bottom.svg'
+var peelBg = 'https://saveyourinternet.today/peel/bg_de.svg'
+var peelBgBottom = 'https://saveyourinternet.today/peel/bg-bottom_de.svg'
 
 var peel = document.createElement('div')
 peel.className = peelClass

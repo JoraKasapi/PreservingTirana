@@ -7,15 +7,15 @@ This is a couple of simple lines of Javascript to embed a page peel to warn agai
 Add the following line to the end of the ```<body>``` of your website. Important! This does not work if you add it to the ```<head>``` of your website.
 
 ```
-<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet_de.js"></script>
 ```
 
 If you want to have the peel in another corner than the left upper one, you can use one of these scripts instead:
 
 ```
-<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-top.js"></script>
-<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-left-bottom.js"></script>
-<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-bottom.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-top_de.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-left-bottom_de.js"></script>
+<script type="text/javascript" src="https://saveyourinternet.today/peel/snippet-right-bottom_de.js"></script>
 ```
 
 Alternatively, you can also host the script yourself and change a couple of settings inside the Javascript file (first 4 lines).
@@ -23,8 +23,8 @@ Alternatively, you can also host the script yourself and change a couple of sett
 ```
 var peelCorner = 'left-top' // 'left-top' or 'right-top' or 'left-bottom' or 'right-bottom'
 var peelClass = 'copyright-peel'
-var peelBg = 'https://saveyourinternet.today/peel/bg.svg'
-var peelBgBottom = 'https://saveyourinternet.today/peel/bg_bottom.svg'
+var peelBg = 'https://saveyourinternet.today/peel/bg_de.svg'
+var peelBgBottom = 'https://saveyourinternet.today/peel/bg-bottom_de.svg'
 ```
 
 ## License
