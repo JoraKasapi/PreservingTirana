@@ -100,12 +100,8 @@ var mq = window.matchMedia('screen and (max-width: 1080px) and (min-resolution: 
 if(mq.matches) {
   console.log('small device => map zoomable now');
 } else {
-  map.touchZoom.disable();
-  map.doubleClickZoom.disable();
+  // disable scroll zoom
   map.scrollWheelZoom.disable();
-  map.boxZoom.disable();
-  map.keyboard.disable();
-  document.querySelector(".leaflet-control-zoom").style.visibility = "hidden";
 }
   </script>
 </body>
