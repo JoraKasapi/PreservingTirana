@@ -346,6 +346,23 @@
         {
             "geometry": {
                 "coordinates": [
+                    -1.6797575354576113,
+                    48.11126738348473
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "_storage_options": {
+                    "color": "DarkOrchid"
+                },
+                "description": "August 26 \u2013 14:30 \u2013 H\u00f4tel de Ville de Rennes\nhttps://queer.hacktivis.me/notice/291064",
+                "name": "Rennes"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     18.057682514190677,
                     59.329960683145174
                 ],
@@ -425,23 +442,6 @@
                 },
                 "description": "August 26 \u2013\u00a018:00 \u2013\u00a0Rynek, 50-101 Wroc\u0142aw, Polska\nhttps://www.facebook.com/events/208686879796389/",
                 "name": "Wroc\u0142aw"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -1.6797575354576113,
-                    48.11126738348473
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "_storage_options": {
-                    "color": "DarkOrchid"
-                },
-                "description": "August 26 \u2013 14:30 \u2013 H\u00f4tel de Ville de Rennes\nhttps://queer.hacktivis.me/notice/291064",
-                "name": "Rennes"
             },
             "type": "Feature"
         }
