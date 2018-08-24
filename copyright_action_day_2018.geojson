@@ -9,6 +9,20 @@
         {
             "geometry": {
                 "coordinates": [
+                    4.905288219451904,
+                    52.37639824099475
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "26 August \u2013 15:00 \u2013 voor de OBA Amsterdam, Oosterdokskade 143\nhttps://piratenpartij.nl/op-zondag-26-augustus-gaan-mensen-overal-in-europa-de-straat-op-voor-saveyourinternet-doe-mee/",
+                "name": "Amsterdam"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     5.323516,
                     60.39203
                 ],
