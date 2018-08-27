@@ -1,14 +1,22 @@
-var peelCorner = 'right-top' // 'left-top' or 'right-top' or 'left-bottom' or 'right-bottom'
+var currentScript = document.currentScript || (function() {
+  var scripts = document.getElementsByTagName('script');
+  return scripts[scripts.length - 1];
+})();
+
+var peelCorner = currentScript.getAttribute('data-corner') || 'left-top'
 var peelClass = 'copyright-peel'
-var peelBg = 'https://saveyourinternet.today/peel/bg_de.svg'
-var peelBgBottom = 'https://saveyourinternet.today/peel/bg-bottom_de.svg'
+var peelLanguage = currentScript.getAttribute('data-lang') || 'de'
+var peelCountry = currentScript.getAttribute('data-country') || 'de'
+
+var peelBg = `//localhost:8080/peel/bg_${peelLanguage}.svg`
+var peelBgBottom = `//localhost:8080/peel/bg-bottom_${peelLanguage}.svg`
 
 var peel = document.createElement('div')
 peel.className = peelClass
 peel.addEventListener('click', function() {
   var currentWidth = parseInt(window.getComputedStyle(peel).getPropertyValue('width'))
   if (currentWidth === (peelWidth * 2)) {
-    var win = window.open('https://saveyourinternet.today', '_blank')
+    var win = window.open(`https://${peelCountry}.saveyourinternet.eu`, '_blank')
     win.focus()
   }
 })
