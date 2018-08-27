@@ -10,7 +10,7 @@ Add the following line to the end of the ```<body>``` of your website. Important
 <script type="text/javascript" src="https://saveyourinternet.today/peel/snippet.js" data-corner="left-top" data-lang="de" data-country="de"></script>
 ```
 
-You can change the settings by changing the ```data-``` attributes. You can use 'left-top', 'right-top', 'left-bottom' or 'right-bottom' for the data-corner attribute.
+You can change the settings by changing the ```data-``` attributes. You can use ```left-top```, ```right-top```, ```left-bottom``` or ```right-bottom``` for the data-corner attribute.
 
 ## License
 
