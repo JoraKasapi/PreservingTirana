@@ -8,8 +8,8 @@ var peelClass = 'copyright-peel'
 var peelLanguage = currentScript.getAttribute('data-lang') || 'de'
 var peelCountry = currentScript.getAttribute('data-country') || 'de'
 
-var peelBg = `//localhost:8080/peel/bg_${peelLanguage}.svg`
-var peelBgBottom = `//localhost:8080/peel/bg-bottom_${peelLanguage}.svg`
+var peelBg = `https://saveyourinternet.today/peel/bg_${peelLanguage}.svg`
+var peelBgBottom = `https://saveyourinternet.today/peel/bg-bottom_${peelLanguage}.svg`
 
 var peel = document.createElement('div')
 peel.className = peelClass
