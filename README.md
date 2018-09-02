@@ -1,9 +1,5 @@
-# saveyourinternet.today
-Overview page for all protests on copyright action day on August 26, 2018.
-
-## Update data
-
-Run ```./fetchdata.sh``` to download the GeoJSON file from [here](https://umap.openstreetmap.fr/en/map/copyright-action-day-2018_238803).
+# LibreOffice Conference 2018 - Events
+Overview page for all the events happening during the LibreOffice Conference 2018 in Tirana, Albania on September 26-28th.
 
 ## Contributions
 
