@@ -23,8 +23,8 @@
     <div id="map"></div>
   </div>
   <div class="info-container">
-    <h1>The list of events during LibOCon 2018!</h1>
-    <p>Check the map to know more.</p>
+    <h1>LibOCon Tirana 2018 - Points of Interest Map</h1>
+    <p>For more information visit <a href="https://libocon.org" target="_blank" rel="noopener">libocon.org</a> or contact the local organizing team at <a href="mailto:libocon@openlabs.cc" target="_blank" rel="noopener">libocon@openlabs.cc</a>.</p>
     <div class="event-list">
     </div>
     <p class="footer">Made with &lt;3 by <a href="https://lushka.al" target="_blank" rel="noopener">Anxhelo Lushka</a>. Find the source code <a href="https://github.com/AnXh3L0/libocon-events" target="_blank" rel="noopener">on Github</a>.</p>
@@ -37,7 +37,7 @@ var regexp = new RegExp(exp);
 
 var eventList = document.querySelector('.event-list')
 
-var map = L.map('map').setView([50,5.0], 4);
+var map = L.map('map').setView([41.3282,19.8158], 14.5);
 L.tileLayer.provider('Stamen.Toner').addTo(map);
 
 var pinkIcon = L.icon({
