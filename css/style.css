@@ -21,7 +21,7 @@ h1, h2, h3, p {
 }
 
 .leaflet-popup-content-wrapper {
-  border: 0.25rem #ff0dbf solid;
+  border: 0.25rem #31aa40 solid;
   border-radius: 0;
   box-shadow: 0 0 0 0;
 }
@@ -40,7 +40,7 @@ h1, h2, h3, p {
 }
 
 .leaflet-popup-close-button {
-  color: #ff0dbf !important;
+  color: #31aa40 !important;
 }
 .leaflet-popup-close-button:hover {
   opacity: 0.5;
@@ -67,15 +67,15 @@ h1, h2, h3, p {
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
-  background-color: #ff0dbf;
+  background-color: #31aa40;
   color: white;
   padding: 1px 2px 0px 2px;
-  border: 1px #ff0dbf solid;
+  border: 1px #31aa40 solid;
 }
 
 .event-description a:hover {
   background-color: white;
-  color: #ff0dbf;
+  color: #31aa40;
 }
 
 .footer {
