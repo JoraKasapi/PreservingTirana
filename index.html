@@ -38,7 +38,7 @@ var regexp = new RegExp(exp);
 var eventList = document.querySelector('.event-list')
 
 var map = L.map('map').setView([41.3282,19.8158], 14.3);
-L.tileLayer.provider('CartoDB.DarkMatter').addTo(map);
+L.tileLayer.provider('CartoDB.Positron').addTo(map);
 
 var GreenIcon = L.icon({
     iconUrl: 'img/map-pin.png',
@@ -88,11 +88,12 @@ var eventsLayer = omnivore.geojson('events.geojson')
   })
   .addTo(map);
 
-var CartoDB_DarkMatter= L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png', {
+var CartoDB= L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/{variant}/{z}/{x}/{y}{r}.png', {
   attribution: '{attribution.OpenStreetMap} &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 	subdomains: 'abcd',
 	minZoom: 0,
-  maxZoom: 19,
+  maxZoom: 21,
+  variant: 'light_all'
 });
 
 var mq = window.matchMedia('screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px)');
