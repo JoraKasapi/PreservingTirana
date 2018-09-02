@@ -15,7 +15,7 @@
           "iconUrl": "/uploads/pictogram/star-24-white.png"
         },
         "name": "The main venue for the conference",
-        "description": "[[http://www.oficina.al/|OFIÇINA]]"
+        "description": "[[http://www.oficina.al|OFIÇINA]]"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +33,7 @@
           "showLabel": true
         },
         "name": "Pre-party on September 25th",
-        "description": "[[https://www.instagram.com/kinotirana/|KINO]]"
+        "description": "[[https://www.instagram.com/kinotirana|KINO]]"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +53,7 @@
           "popupTemplate": "Default"
         },
         "name": "Community dinner on September 26th",
-        "description": "[[https://www.tripadvisor.com/Restaurant_Review-g294446-d7251834-Reviews-Zgara_Korcare_2-Tirana_Tirana_County.html|Zgara Korçare]]"
+        "description": "[[https://www.tripadvisor.com/Restaurant_Review-g294446-d7251834-Reviews-Zgara_Korcare_2-Tirana_Tirana_County|Zgara Korçare]]"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +72,7 @@
           "showLabel": true
         },
         "name": "Hacknight on September 27th",
-        "description": "[[https://destil.al/|Destil]]"
+        "description": "[[https://destil.al|Destil]]"
       },
       "geometry": {
         "type": "Point",
