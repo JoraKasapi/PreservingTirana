@@ -15,11 +15,7 @@
           "iconUrl": "/uploads/pictogram/star-24-white.png"
         },
         "name": "The main venue for the conference",
-        "description": "OFIÇINA\nhttp://www.oficina.al"
-        "mapsme": "Maps.ME"
-        "osmand": "OSMand"
-        "link2": "https://google.al"
-        "link3": "https://duckduckgo.com"
+        "description": "OFIÇINA\nhttps://osm.org/go/xexSY_Wl_?m="
       },
       "geometry": {
         "type": "Point",
@@ -37,11 +33,7 @@
           "showLabel": true
         },
         "name": "Pre-party on September 25th",
-        "description": "KINO\nhttps://www.instagram.com/kinotirana"
-        "mapsme": "Maps.ME"
-        "osmand": "OSMand"
-        "link2": ""
-        "link3": ""
+        "description": "KINO\nhttps://osm.org/go/xexSOtAXf?m="
       },
       "geometry": {
         "type": "Point",
@@ -61,11 +53,7 @@
           "popupTemplate": "Default"
         },
         "name": "Community dinner on September 26th",
-        "description": "Zgara Korçare\nhttps://www.tripadvisor.com/Restaurant_Review-g294446-d7251834-Reviews-Zgara_Korcare_2-Tirana_Tirana_County"
-        "mapsme": "Maps.ME"
-        "osmand": "OSMand"
-        "link2": ""
-        "link3": ""
+        "description": "Zgara Korçare\nhttps://osm.org/go/xexSLiY_x?m="
       },
       "geometry": {
         "type": "Point",
@@ -84,11 +72,7 @@
           "showLabel": true
         },
         "name": "Hacknight on September 27th",
-        "description": "Destil\nhttps://destil.al"
-        "mapsme": "Maps.ME"
-        "osmand": "OSMand"
-        "link2": ""
-        "link3": ""
+        "description": "Destil\nhttps://osm.org/go/xexSkl8FG?m="
       },
       "geometry": {
         "type": "Point",

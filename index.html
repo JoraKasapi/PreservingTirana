@@ -23,7 +23,7 @@
     <div id="map"></div>
   </div>
   <div class="info-container">
-    <h1>LibOCon Tirana 2018 - Points of Interest Map</h1>
+    <h1>LibOCon Tirana 2018 - PoI Map</h1>
     <p>For more information visit <a href="https://libocon.org" target="_blank" rel="noopener">libocon.org</a> or contact the local organizing team at <a href="mailto:libocon@openlabs.cc" target="_blank" rel="noopener">libocon@openlabs.cc</a>.</p>
     <div class="event-list">
     </div>
@@ -62,10 +62,6 @@ var eventsLayer = omnivore.geojson('events.geojson')
 
       var title = layer.feature.properties.name;
       var description = layer.feature.properties.description;
-      var mapsme = layer.feature.properties.mapsme;
-      var osmand = layer.feature.properties.osmand;
-      var link2 = layer.feature.properties.link2;
-      var link3 = layer.feature.properties.link3;
       var link = description.match(regexp) ? description.match(regexp)[0] : undefined;
       description = description.replace(link, '');
 
@@ -76,7 +72,7 @@ var eventsLayer = omnivore.geojson('events.geojson')
       var eventListItemContent = '';
 
       if (link) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${link}" target="_blank">${description}</a> | <a href="${link2}" target="_blank">${mapsme}</a> | <a href="${link3}" target="_blank">${osmand}</a></p>`;
+        eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${link}" target="_blank">${description}</a></p>`;
       } else if (description) {
         eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
       } else {
