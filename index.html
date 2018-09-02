@@ -40,13 +40,13 @@ var eventList = document.querySelector('.event-list')
 var map = L.map('map').setView([41.3282,19.8158], 14.5);
 L.tileLayer.provider('Stamen.Toner').addTo(map);
 
-var pinkIcon = L.icon({
+var GreenIcon = L.icon({
     iconUrl: 'img/map-pin.png',
     iconRetinaUrl: 'img/favicon.png',
     iconSize: [48, 48]
 });
 
-var eventsLayer = omnivore.geojson('copyright_action_day_2018.geojson')
+var eventsLayer = omnivore.geojson('events.geojson')
   .on('ready', function() {
     map.fitBounds(eventsLayer.getBounds());
 
@@ -57,7 +57,7 @@ var eventsLayer = omnivore.geojson('copyright_action_day_2018.geojson')
     // dataset has a property called `name`: your dataset might not,
     // so inspect it and customize to taste.
       if (layer instanceof L.Marker) {
-        layer.setIcon(pinkIcon);
+        layer.setIcon(GreenIcon);
       }
 
       var title = layer.feature.properties.name;

@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "showLabel": true,
+          "popupTemplate": "Default",
+          "labelDirection": "auto",
+          "labelHover": false,
+          "labelInteractive": false,
+          "color": "Green",
+          "iconClass": "Default",
+          "iconUrl": "/uploads/pictogram/star-24-white.png"
+        },
+        "name": "Oficina",
+        "description": "The main venue for the conference"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.807244539260868,
+          41.33527790815933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "KINO",
+        "description": "Pre-party on September 25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81659606099129,
+          41.321712495053085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "color": "DarkRed",
+          "iconUrl": "/uploads/pictogram/fast-food-24_1.png",
+          "showLabel": true,
+          "popupTemplate": "Default"
+        },
+        "name": "Zgara Korçare",
+        "description": "Community dinner on September 26th"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81572434306145,
+          41.31453386928512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "color": "BlueViolet",
+          "iconUrl": "/uploads/pictogram/cafe-24_1.png",
+          "showLabel": true
+        },
+        "name": "Destil",
+        "description": "Hacknight on September 27th"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.825883209705356,
+          41.32214457736661
+        ]
+      }
+    }
+  ]
+}
