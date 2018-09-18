@@ -53,13 +53,13 @@
           "popupTemplate": "Default"
         },
         "name": "Community dinner on September 26th @ 20.00",
-        "description": "Zgara Korçare\nhttps://osm.org/go/xexSLiY_x?m="
+        "description": "Bräuhaus\nhttps://osm.org/go/xexSO2uyf?m="
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.81572434306145,
-          41.31453386928512
+          19.816538,
+          41.323925
         ]
       }
     },
