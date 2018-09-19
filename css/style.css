@@ -13,6 +13,7 @@ h1, h2, h3, p {
 
 .map-container {
   flex: 2;
+  border: 0.35rem solid #31aa40;
 }
 
 #map {
