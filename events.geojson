@@ -99,6 +99,24 @@
           41.32851
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Airport shuttle",
+        "description": "Rinas Airport Bus\nhttps://osm.org/go/xexSlR4ZP?m="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82042,
+          41.32891
+        ]
+      }
     }
   ]
 }
