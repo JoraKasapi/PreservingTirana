@@ -82,5 +82,23 @@
         ]
       }
     }
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Skanderbeg Square",
+        "description": "City Center\nhttps://osm.org/go/xexSP7CIP?m="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81819,
+          41.32851
+        ]
+      }
+    },
   ]
 }
