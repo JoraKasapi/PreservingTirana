@@ -117,6 +117,24 @@
           41.32891
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Pyramid of Tirana",
+        "description": "Attraction\nhttps://osm.org/go/xexSkTgs0?m="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82154,
+          41.32304
+        ]
+      }
     }
   ]
 }
