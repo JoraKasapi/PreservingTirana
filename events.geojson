@@ -91,13 +91,13 @@
           "showLabel": true
         },
         "name": "City Tour on September 29th @ 10.00",
-        "description": "Mother Teresa Square\nhttps://osm.org/go/xexSkl8FG?m="
+        "description": "Mother Teresa Square\nhttps://osm.org/go/xexShTaTv?m="
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.825883209705356,
-          41.32214457736661
+          19.82126,
+          41.31792
         ]
       }
     },
@@ -109,13 +109,13 @@
           "showLabel": true
         },
         "name": "Skanderbeg Square",
-        "description": "City Center\nhttps://osm.org/go/xexShTacY?m="
+        "description": "City Center\nhttps://osm.org/go/xexSP7CI8?m="
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82127,
-          41.31793
+          19.81819,
+          41.32851
         ]
       }
     },
