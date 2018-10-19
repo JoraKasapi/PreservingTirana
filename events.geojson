@@ -32,14 +32,14 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Pre-party on September 25th @ 19.00",
-        "description": "KINO\nhttps://osm.org/go/xexSOtAXf?m="
+        "name": "http://jorakasapi.com/LostTiranaBuildings/ ",
+        "description": " "
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.81659606099129,
-          41.321712495053085
+          19.819454,
+          41.334086
         ]
       }
     },
