@@ -280,7 +280,368 @@
           41.330267
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON THE CROSSROAD BETWEEN ‘RR.MIHAL DURI’ AND ‘RR.KONT URANI’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.812258,
+         41.329588
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA KONT URANI’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.81233,
+         41.329454
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA AT THE ENTRANCE OF ‘RRUGA KAVAJES’",
+        "description": "The Villa positioned in the intersection  of ‘Rruga Kont Urani’and ‘Rruga Kavajes”, was built in 1936 from the Italian architect Giulio Berte (whome is a very important name in the history of the architecture of Tirana, the architect who realized The Palace of Brigades). The project was initiated  as a four storey villa  with a mixed use, serving for living  and  hotel also. It wasn’t implemented like that  because of a conflict for the land  with the Mosque nearby.From 1945 until 1992 it served as a Kindergarden  and after 1992 the original owners got it back. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.811694,
+         41.328449
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA OF THE FORMER ‘RADIO TIRANA’",
+        "description": "This Villa is a Monument of second category.Represents the first mediatic Institution in Albania .The villa was built  in 1938  from a very rich and important  family of Tirana ‘Kollciu’  with the main purpose to be a house for two brothers , fact  that is  also emphasized by the symmetric plan organization of the villa. Later on it was seized under the order of King Zog and it served as the base for ‘Radio Tirana’ until 1965.  After that its inner space was used by The Institute of Anthroplogy and Art studies, which later on moved also from there since its private owners appeared again and today It stands in very bad conditions. The villa is composed by four floors and one of them stands underground .It has two main entrances and one of them is directed towards the backyard. It has a very harmonic, neoclassical façade with columns without orders, prefabricated granil (granulated stones composition) staircase, a main hallway with marble tiles, windows with wooden frames, metallic balustrades. Currently there are some people from the ‘rome’ community living in the building. It is believed that the actual owner of the Villa led them ‘squat’ and clean the inner space before taking back the villa and reconstruct it for its main interest. It is believed .Everything regarding the fate of the villa is a speculation , some of the inhabitants around the neighbourhood say the actual owner wants to recreate a Museum out of it but none of this regarding its fate is yet confirmed . "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.81148,
+         41.328533
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA AT THE ENTRANCE OF ‘RRUGA KONT URANI’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.811394,
+         41.328384
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "NATURE SCIENCE MUSEUM",
+        "description": "The Nature Science Museum, had different functions during the years .During the regime of King Zogu it used to be a Dormitory , Dormitory ‘Naim Frasheri’. During the fascist Italian regime it served as an aeroplane’s motors  repairing unit. In 948 the building worked as ‘The Nature Science Museum’ related to the Science Institute (state property). In 2009 four private owners of the site where the building stood, appeared and through a  court’s decision , the building  became their property. There were several polemics regarding the fact if the Museum should move or not from its original location, there were some students protest also  but neither of those worked .The Museum was demolished and transformed into  a construction site for a high-rise complex of businesses and housing. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.805657,
+         41.326862
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "THE PYRAMID",
+        "description": "The Pyramid represents, definitely one of the most complex, and special buildings representative  of the historical,  cultural and political discourse of the city of Tirana. The project for the Pyramid  was realized from a group of architects Pranvera Hoxha(Enver Hoxha’s doughter), Klement Kolaneci, Pirro Vaso and Vladimir Bregu in a total amount of time of three years with the main purpose of being the Communist Diktator’s Mausoleum, Museum of Enver Hoxha. In  1988 the building  became functional  and worked as such until 1992 with the capitulation of the Communist regime. Afterwards  the building went through several changes regarding its function.It was used as  Conference hall , later as an humanitarian center around 1999 with the placement of the NATO headquarter in Kosovo. In 2001 Top Chanel headquarters was positioned there, making possible for it to be used  at the same time as a space for  a nightclubs or gathering political space  the part of the courtyard.  Today after several years of non appropriate maintenance and ignoring it in most of the time , there’s a new plan  for its revitalization. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.821256,
+         41.323004
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "‘QEMAL STAFA’ STADIUM",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.823681,
+          41.31829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA AT THE END OF ’RRUGA BARRIKADAVE’ (not existing anymore)",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.817155,
+          41.336253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA NIKOLLA TUPE’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.814916,
+         41.319683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA TEFTA TASHKO KOCO’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.827506,
+          41.329048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 2 ON ’RRUGA TEFTA TASHKO KOCO’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.827806,
+          41.329164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA KONT URANI’",
+        "description": "This villa is thought to have been used as a Public House . Currently is owned by public owners and its state is quiet miserable , a real ‘architectural ruin’ the only things  left visible from its structure are  the perimetral walls  and the  main façade of the building meanwhile  from the inside  the space has been invaded with greenery and trees. Despite its  perfect located position  along one of the most important streets  in Tirana, the space inside  because it was basically left neglected is used for living and  small informal market units from families of the rome community. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.811531,
+          41.328662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "‘HOUSE OF LEAVES’ ",
+        "description": "It was built in 1931 ,  also known in Albania as ‘House of Leaves” , in the beginning it was used  as an “Obstetric Clinic’. During the Second World War , under the German occupation , it belonged to Gestapo, meanwhile years after, during the initial years of the new regime  it worked as a Control Center (politic government police) used especially for investigations. Since after 2014 there has been a plan and implementation  of a museum in its inner spaces. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.816348,
+          41.326587
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "FORMER YUGOSLAVIA EMBASSY",
+        "description": "The main façade of the Villa  is oriented to the south  with  main access to Rruga e Durresit . The villa was built in 1931 to serve as the ‘Turkish Legata’  and afterwards , after 1945 served as The Embassy of Yugoslavia. The building is  organized into two storeys and another one as a roof. It has four entrances , two on the southern façade and two on the northern one on its back. It is characterized with openings in the shape of  pointed arches  ‘a sesto acuto’ that place all their weight on the columns an both sides. This  volumetric treatment reminds  of the Gothic Churches  . after a very long time left  neglected , it was  renovated but not in the proper way. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.809911,
+          41.331266
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA ISA BOLETINI’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.820886,
+          41.333599
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA PAPA GJON PALI II’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.822603,
+          41.323134
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA JUL VARIBOBA’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.823957,
+          41.322942
+        ]
+      }
+    },
+          {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA ELBASANIT’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.825521,
+         41.321148
+        ]
+      }
+    },
+          {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "TOPTANI’S SARAJET",
+        "description": "Toptani’s Sarajet  have been built around  1833-1840 ,one of the least buildings realized  during the feudal order , in Albania .It possesses around 32 rooms  decorated  in oriental  style. It represents a very important architectural complex  constructed with massive  bearing walls  that give to it the feeling of a fortification  or fortress. It represents a type of  building and construction technique  spread in Albania during  the second half of the 19th century , during the feudal order. It’s a two storey building , proclaimed  Monument of Culture , built with traditional techniques from old masters from Diber. It has  special values  not only for the  inner functional organization but also for its architectural treatment and  decorations. During a period of time it was used as a Bar/cafe , today stands not functional and non-accessible to the public. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.821213,
+          41.327104
+        ]
+      }
     }
+    
     
   ]
 }
