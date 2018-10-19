@@ -4,7 +4,7 @@ Microsite about the architectural buildings of Tirana that have been forgoten.
 ## Update data
 
 At the moment the project fetches data from https://github.com/OpenLabsHackerspace/libocon-events project which I am using the codebase from.
-
+Orginal codebase from:  https://saveyourinternet.today/ .
 Run ```./fetchdata.sh``` to download the GeoJSON file from [here](https://umap.openstreetmap.fr/en/map/copyright-action-day-2018_238803).
 
 ## Contributions
