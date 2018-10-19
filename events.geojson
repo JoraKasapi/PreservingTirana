@@ -52,14 +52,14 @@
           "showLabel": true,
           "popupTemplate": "Default"
         },
-        "name": "Community dinner on September 26th @ 20.00",
-        "description": "Bräuhaus\nhttps://osm.org/go/xexSO2uyf?m="
+        "name": "VILLA ‘FORTUZI’",
+        "description": "Villa ‘ Fortuzi’ was built from Omer Fortuzi around 1920. He used to be one of the first Albanian engineers and a member of one of the biggest and most important families in the city., being also once the mayor of Tirana. While he had this position he always tried to implement as many Italian projects as he could. The architecture of this villa shows this intent too with this big , functional balconies, the way it is developed on its ground floor in an  ‘L’ shape. A special characteristic of this Villa is the fact that its volumetry is treated with organic lines and shapes instead of the straight lines and angles of most of the buildings of that period."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.816538,
-          41.323925
+         19.815763,
+         41.332817
         ]
       }
     },
@@ -71,14 +71,14 @@
           "iconUrl": "/uploads/pictogram/cafe-24_1.png",
           "showLabel": true
         },
-        "name": "Hacknight on September 27th @ 19.00",
-        "description": "Destil\nhttps://osm.org/go/xexSkl8FG?m="
+        "name": "VILLA ON ‘RRUGA SPIRO DEDJA’",
+        "description": "It used to be the first school in Tirana. As a typology, it also represents a traditional  ‘Banese me qoshk’ therefore constructed with massive ‘qerpic’ walls with (antiseizmic) wooden beams in between,  decorative wooden  ceiling , well-treated balcony .Today in a very bad condition, neglected and left to nature’s course."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.825883209705356,
-          41.32214457736661
+          19.818121,
+          41.332237
         ]
       }
     },
@@ -90,14 +90,14 @@
           "iconUrl": "/uploads/pictogram/cafe-24_1.png",
           "showLabel": true
         },
-        "name": "City Tour on September 29th @ 10.00",
-        "description": "Mother Teresa Square\nhttps://osm.org/go/xexShTaTv?m="
+        "name": "CINEMA‘17 NENTORI – today  City mall ‘Galeria’",
+        "description": "The first Cinema in Tirana, also known as Cinema-Theater ‘Nacional’  project realized by  arch. Skënder Luarasi, in  1924. It represented a very important cultural center at the time and gathering place  for the cities inhabitants.In 1945 took the name ’17 nëntori’ (the date of Tirana’s Independence).  It was used as a cinema until 1991 (during which its ownership changed from the ‘Beshiret’ family to the Government). Later on , some popular courts were held in its inner space and after that  it was used for spiritual sessions etc until it decayed completely and it was given to its original owners back again , but it never  returned back to being a cinema again.  Finally in 2003 , the decision to completely demolish it , was taken and instead of it building  erecting a Shopping mall. In the beginning , it was said to save and re-use the existing façade of the building  but afterwards this idea wasn’t implemented. Everything from the old Cinema vanished as it apparently never existed , the only thing remaining the same was its name ."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82126,
-          41.31792
+          19.820055,
+          41.331447
         ]
       }
     },
@@ -108,14 +108,14 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Skanderbeg Square",
-        "description": "City Center\nhttps://osm.org/go/xexSP7CI8?m="
+        "name": "‘THE BUILDING WITH CUBES’",
+        "description": "Architect: Maks Velo"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.81819,
-          41.32851
+          19.820119,
+          41.33038
         ]
       }
     },
@@ -126,14 +126,14 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Airport shuttle",
-        "description": "Rinas Airport Bus\nhttps://osm.org/go/xexSlR4ZP?m="
+        "name": "VILLA 2 ON ‘RRUGA QEMAL STAFA’",
+        "description": " "
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82042,
-          41.32891
+          19.824014,
+          41.331085
         ]
       }
     },
@@ -144,14 +144,14 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Pyramid of Tirana",
-        "description": "Attraction\nhttps://osm.org/go/xexSkTgs0?m="
+        "name": "VILLA 4 ON RRUA ‘QEMAL STAFA’",
+        "description": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82154,
-          41.32304
+          19.824368,
+          41.331185
         ]
       }
     },
@@ -162,14 +162,14 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Open Labs",
-        "description": "The local hackerspace\nhttps://osm.org/go/xexSkuSUZ?m="
+        "name": "VILLA 1 ON ‘RRUA QEMAL STAFA’",
+        "description": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82913,
-          41.32137
+          19.82315,
+          41.330815
         ]
       }
     }
