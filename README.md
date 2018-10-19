@@ -1,5 +1,11 @@
-# LibreOffice Conference 2018 - Events
-Overview page for all the events happening during the LibreOffice Conference 2018 in Tirana, Albania on September 26-28th.
+# LostTirana project
+Microsite about the architectural buildings of Tirana that have been forgoten.
+
+## Update data
+
+At the moment the project fetches data from https://github.com/OpenLabsHackerspace/libocon-events project which I am using the codebase from.
+
+Run ```./fetchdata.sh``` to download the GeoJSON file from [here](https://umap.openstreetmap.fr/en/map/copyright-action-day-2018_238803).
 
 ## Contributions
 
