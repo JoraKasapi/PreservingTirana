@@ -172,6 +172,115 @@
           41.330815
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 3 ON ‘RRUA QEMAL STAFA’",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.828058,
+          41.332285
+        ]
+        }
+      },
+        {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 1 ON ‘RRUGA XHORXHI MARTINI’ ",
+        "description": "Monument of second category"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.824183,
+          41.328156
+        ]
+         }
+      },
+   {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 2 ON ‘RRUGA  XHORXHI MARTINI’",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.824526,
+          41.328511
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "THE PUPPET THEATER",
+        "description": "This building was the base of the first operating Albanian Parliament. It is a Monument of first Category nominated by the Ministry of Youth and Sports in November 1992 in the beginning and after in march of the 2000.  The Theater was created as an Institution on 6th December of the 1950 and nowadays celebrates 60 years ,with 160 places. There has been no serious maintenance during the years and this is visible in the current condition of the building and there are voices going on that it will be also demolished since it doesn’t accomplish with the present requisites of functionality for a building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.817598,
+         41.327307
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "THE NATIONAL THEATER",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         19.820339,
+         41.326501
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON ‘RRUGA E DURRESIT’",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81181,
+          41.330267
+        ]
+      }
     }
+    
   ]
 }
