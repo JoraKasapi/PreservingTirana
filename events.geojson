@@ -662,4 +662,40 @@
     
     
   ]
-}
+},
+ {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON 'RRUGA RRESHIT ÇOLLAKU' ",
+        "description": "The villa is situated behind the Central Postal Office and is believed to be owned by one of the richest families of Tirana (a doctor's family). "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81566,
+          41.32659
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON 'RRUGA E DURRESIT' ",
+        "description": "The villa is situated behind the 'Adem Jashari' square. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.80860,
+          41.33107
+        ]
+      }
+    }
