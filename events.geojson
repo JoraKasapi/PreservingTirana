@@ -325,7 +325,7 @@
           "showLabel": true
         },
         "name": "VILLA AT THE ENTRANCE OF ‘RRUGA KAVAJES’",
-        "description": "The Villa positioned in the intersection  of ‘Rruga Kont Urani’and ‘Rruga Kavajes”, was built in 1936 from the Italian architect Giulio Berte (whome is a very important name in the history of the architecture of Tirana, the architect who realized The Palace of Brigades). The project was initiated  as a four storey villa  with a mixed use, serving for living  and  hotel also. It wasn’t implemented like that  because of a conflict for the land  with the Mosque nearby.From 1945 until 1992 it served as a Kindergarden  and after 1992 the original owners got it back. "
+        "description": "The Villa positioned in the intersection  of ‘Rruga Kont Urani’and ‘Rruga Kavajes, was built in 1936 from the Italian architect Giulio Berte (whome is a very important name in the history of the architecture of Tirana, the architect who realized The Palace of Brigades). The project was initiated  as a four storey villa  with a mixed use, serving for living  and  hotel also. It wasn’t implemented like that  because of a conflict for the land  with the Mosque nearby.From 1945 until 1992 it served as a Kindergarden  and after 1992 the original owners got it back.This villa has a very clear modern character related to its volume distribution and clear surface treatments countrary to the official neoclassicalitalian architecture of the time "
       },
       "geometry": {
         "type": "Point",
@@ -638,6 +638,24 @@
         "coordinates": [
           19.821213,
           41.327104
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "THE FORMER 'EKSPOZITA SHQIPERIA SOT'BUILDING",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81090,
+          41.322292
         ]
       }
     }
