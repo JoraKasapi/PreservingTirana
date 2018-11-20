@@ -739,7 +739,7 @@
           "showLabel": true
         },
         "name": "VILLA ON THE ENTRANCE OF RRUGA TEFTA TASHKO KOÇO",
-        "description": "The villa is situated  along the main roundabout of 'Avni Rustemi'square. "
+        "description": "The villa is situated  along the main roundabout of 'Avni Rustemi'square.It's a two storey house made out of red brick perimetral walls and concrete-elements window frames.A special charateritic of this villa who differenciates it from several others of the area is an upper strip, closed to the roof, painted with decorative afresco-s. "
       },
       "geometry": {
         "type": "Point",
@@ -748,7 +748,45 @@
           41.32907
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON RRUGA THIMI MITKO",
+        "description": "This is a two storey house.Is original owner, is believed to be the cook of King Ahmet Zogu.Since it stands very close,along a very narrow one-way street, you can notice some changes done through the years to close it as much as possible to the street.You can notice its ground floor completly closed by a continuous wall and  the first floor where you can spot  all of its windows  blocked by another inner wall.  "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82599,
+          41.32956
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "BUILDING ON 'RRUGA HOXHA TAHSIM'",
+        "description": "Long, linear two storey building, very close to the 'Avni Rustemi'roundabout "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82576,
+          41.32965
+        ]
+      }
     }
+
+
 
     
     
