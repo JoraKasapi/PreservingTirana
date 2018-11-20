@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "FeatureCollection",
   "features": [
     {
@@ -730,7 +730,26 @@
           41.32057
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA ON THE ENTRANCE OF RRUGA TEFTA TASHKO KOÇO",
+        "description": "The villa is situated  along the main roundabout of 'Avni Rustemi'square. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82590,
+          41.32907
+        ]
+      }
     }
+
     
     
     
