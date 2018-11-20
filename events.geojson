@@ -784,7 +784,26 @@
           41.32965
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "BUILDING IN THE CORNER BETWEEN RR.DURRESI AND RR.MIHAL DURI (In front of the Former Yugoslai Embassy)",
+        "description": "Three storey building. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.80967,
+          41.33097
+        ]
+      }
     }
+
 
 
 
