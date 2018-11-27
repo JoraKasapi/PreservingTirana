@@ -13,6 +13,7 @@ Feel free to make a PR in case you have any contributions. By making a PR you ac
 
 ## Support the project
 Bitcoin Address (BTC): 15pA2y5htinuZVJ28ajygimvvNtCLpDk3m
+![QR Code](https://github.com/JoraKasapi/PreservingTirana/img/bitcoinqr.jpg)
 
 ## License
 
