@@ -68,12 +68,13 @@ h1, h2, h3, p {
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
-  background-color: #3da59a;
-  color: white;
+  color: grey;
   padding: 1px 2px 0px 2px;
-  border: 1px #3da59a solid;
+  
 }
-
+a:hover {
+ color: #3da59a;
+}
 .event-description a:hover {
   background-color: white;
   color: #3da59a;
