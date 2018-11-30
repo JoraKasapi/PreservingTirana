@@ -53,7 +53,7 @@
           "popupTemplate": "Default"
         },
         "name": "VILLA ‘FORTUZI’",
-        "description": "Villa ‘ Fortuzi’ was built from Omer Fortuzi around 1920. He used to be one of the first Albanian engineers and a member of one of the biggest and most important families in the city., being also once the mayor of Tirana. While he had this position he always tried to implement as many Italian projects as he could. The architecture of this villa shows this intent too with this big , functional balconies, the way it is developed on its ground floor in an  ‘L’ shape. A special characteristic of this Villa is the fact that its volumetry is treated with organic lines and shapes instead of the straight lines and angles of most of the buildings of that period."
+        "description": "Villa ‘Fortuzi’ was built from Omer Fortuzi around 1920. He used to be one of the first Albanian engineers and a member of one of the biggest and most important families in the city., being also once the mayor of Tirana. While he had this position he always tried to implement as many Italian projects as he could. The architecture of this villa shows this intent too with this big , functional balconies, the way it is developed on its ground floor in an  ‘L’ shape. A special characteristic of this Villa is the fact that its volumetry is treated with organic lines and shapes instead of the straight lines and angles of most of the buildings of that period."
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +72,7 @@
           "showLabel": true
         },
         "name": "VILLA ON ‘RRUGA SPIRO DEDJA’",
-        "description": "It used to be the first school in Tirana. As a typology, it also represents a traditional  ‘Banese me qoshk’ therefore constructed with massive ‘qerpic’ walls with (antiseizmic) wooden beams in between,  decorative wooden  ceiling , well-treated balcony .Today in a very bad condition, neglected and left to nature’s course."
+        "description": "It used to be the first school in Tirana. As a typology, it also represents a traditional ‘Banese me qoshk’ therefore constructed with massive ‘qerpic’ walls with (antiseizmic) wooden beams in between, decorative wooden ceiling, well-treated balcony. Today in a very bad condition, neglected and left to nature’s course."
       },
       "geometry": {
         "type": "Point",
@@ -289,7 +289,7 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "VILLA ON ‘RRUGA KONT URANI’",
+        "name": "VILLA ON THE CROSSSECTION BETWEEN‘RRUGA KONT URANI’AND 'MIHAL DURI'",
         "description": " "
       },
       "geometry": {
