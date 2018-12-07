@@ -785,7 +785,26 @@
           41.33097
         ]
       }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "The former Red villa (not existing anymore)",
+        "description": " Today trasformed into the luxorious four storey 'Carlsberg' Hotel "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81881,
+          41.31754
+        ]
+      }
     }
+
 
 
 
