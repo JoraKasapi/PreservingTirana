@@ -812,7 +812,7 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa on Rruga Dibrës, along the Alley",
+        "name": "Villa 1 on Rruga Dibrës, along the Alley",
         "description": " "
       },
       "geometry": {
@@ -822,7 +822,45 @@
           41.33139
         ]
       }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 2 along Rruga Dibrës",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82176,
+          41.33137
+        ]
+      }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 5 along Rruga 'Qemal Stafa",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82807,
+          41.33233
+        ]
+      }
     }
+
+
 
       
     
