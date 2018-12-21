@@ -803,7 +803,71 @@
           41.31754
         ]
       }
+    },
+    
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 1 ON RRUGA DIBRES (ALONG THE ALLEY)",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82097,
+          41.33139
+        ]
+      }
+    },
     }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 2 ALONG RRUGA DIBRES",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82181,
+          41.33136
+        ]
+      }
+    },
+    }
+    },
+
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 5 ALONG RRUGA'QEMAL STAFA'",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82824,
+          41.33239
+        ]
+      }
+    },
+    }
+    }
+      
+    
 
 
 
