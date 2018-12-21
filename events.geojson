@@ -803,8 +803,27 @@
           41.31754
         ]
       }
+    },
+    
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "VILLA 1 ON RRUGA DIBRES, ALONG THE ALLEY",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82099,
+          41.33139
+        ]
+      }
     }
- 
+
       
     
 
