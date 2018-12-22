@@ -534,24 +534,7 @@
         ]
       }
     },
-      {
-      "type": "Feature",
-      "properties": {
-        "_storage_options": {
-          "iconUrl": "/uploads/pictogram/bar-24_1.png",
-          "showLabel": true
-        },
-        "name": "Villa on ‘Rruga Isa Boletini’",
-        "description": " "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.820886,
-          41.333599
-        ]
-      }
-    },
+    
       {
       "type": "Feature",
       "properties": {
