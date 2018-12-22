@@ -858,7 +858,102 @@
           41.33233
         ]
       }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 1 along Rruga 'Siri Kodra'",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82191,
+          41.33469
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 2 along Rruga'Siri Kodra'",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82159,
+          41.33479
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 1 along Rruga 'Isa Boletini'",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82155,
+          41.33345
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 2 on Rruga 'Isa Boletini'",
+        "description": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82104,
+          41.33367
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "The former 'Punishtia e pastes' building",
+        "description": "Once an industrial building, today half neglected partialy used by mixed functions.  "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82103,
+          41.33597
+        ]
+      }
     }
+
+
+
+
+
 
 
 
