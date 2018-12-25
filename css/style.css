@@ -20,7 +20,11 @@ h1, h2, h3, p {
   height: 100%;
   width: 100%;
 }
+.event-item img {
 
+    display: none;
+
+}
 .leaflet-popup-content-wrapper {
   border: 0.25rem #3da59a solid;
   border-radius: 0;

@@ -814,7 +814,8 @@
           "showLabel": true
         },
         "name": "Villa 2 along Rruga Dibrës",
-        "description": " "
+        "description": "",
+        "images": "img/VILLA_2_ALONG_RRUGA_DIBRES.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -832,7 +833,7 @@
           "showLabel": true
         },
         "name": "Villa 5 along Rruga 'Qemal Stafa",
-        "description": " "
+        "description": ""
       },
       "geometry": {
         "type": "Point",
