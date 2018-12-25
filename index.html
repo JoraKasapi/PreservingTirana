@@ -72,6 +72,7 @@ var eventsLayer = omnivore.geojson('events.geojson')
 
       var title = layer.feature.properties.name;
       var description = layer.feature.properties.description;
+      var image =  layer.bindPopup("<img src="images"/>");
       var link = description.match(regexp) ? description.match(regexp)[0] : undefined;
       description = description.replace(link, '');
 
