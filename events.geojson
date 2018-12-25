@@ -832,7 +832,7 @@
           "showLabel": true
         },
         "name": "Villa 5 along Rruga 'Qemal Stafa",
-        "description": " <img src='img/VILLA_2_ALONG_RRUGA_DIBRES.JPG' width='200px'>"
+        "description": "Test <img src='img/VILLA_2_ALONG_RRUGA_DIBRES.JPG' width='200px'>"
       },
       "geometry": {
         "type": "Point",
