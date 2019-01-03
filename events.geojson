@@ -420,7 +420,7 @@
         },
         "name": "‘Qemal Stafa’ Stadium",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/stadiumi_Qemal_stafa.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +439,7 @@
         },
         "name": "Villa at the end of ’Rruga Barrikadave’ (not existing anymore)",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/ASDDAD.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -449,25 +449,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "_storage_options": {
-          "iconUrl": "/uploads/pictogram/bar-24_1.png",
-          "showLabel": true
-        },
-        "name": "Villa on ‘Rruga Nikolla Tupe’",
-        "description": " ",
-        "images": " "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         19.814916,
-         41.319683
-        ]
-      }
-    },
+    
     {
       "type": "Feature",
       "properties": {
