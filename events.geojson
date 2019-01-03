@@ -304,7 +304,7 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa on'Mihal Duri'",
+        "name": "Villa on Rruga 'Mihal Duri'",
         "description": " ",
         "images": "foto_ndertesash/Villa_on_the_crossroad_between_Rr.Mihal_Duri_and_Rr.Kont_Urani.jpg"
       },
@@ -495,9 +495,9 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa on ‘Rruga Kont Urani’",
+        "name": "Villa 2 on ‘Rruga Kont Urani’",
         "description": "This villa is thought to have been used as a Brothel. Currently is owned by public owners and its state is quiet miserable, a real ‘architectural ruin’ the only things left visible from its structure are the perimetral walls  and the  main façade of the building meanwhile from the inside the space has been invaded with greenery and trees. Despite its perfect located position along one of the most important streets  in Tirana, the space inside because it was basically left neglected is used for living and  small informal market units from families of the rome community. ",
-        "images": "foto_ndertesash/ "
+        "images": "foto_ndertesash/Villa_on_Rruga_Kont_Urani.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -507,25 +507,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "_storage_options": {
-          "iconUrl": "/uploads/pictogram/bar-24_1.png",
-          "showLabel": true
-        },
-        "name": "‘House of Leaves’ ",
-        "description": "It was built in 1931, also known in Albania as 'House of Leaves', in the beginning it was used as an 'Obstetric Clinic’. During the Second World War, under the German occupation, it belonged to Gestapo, meanwhile years after, during the initial years of the new regime it worked as a Control Center (politic government police) used especially for investigations. Since after 2014 there has been a plan and implementation  of a museum in its inner spaces. ",
-        "images": " "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.816348,
-          41.326587
-        ]
-      }
-    },
+   
       {
       "type": "Feature",
       "properties": {
@@ -574,7 +556,7 @@
         },
         "name": "Villa on ‘Rruga Jul Variboba’",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/33.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -593,7 +575,7 @@
         },
         "name": "Villa on ‘Rruga Elbasanit’",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/ "
       },
       "geometry": {
         "type": "Point",
