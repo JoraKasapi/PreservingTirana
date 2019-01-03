@@ -796,7 +796,8 @@
           "showLabel": true
         },
         "name": "Villa 1 on Rruga Dibrës, along the Alley",
-        "description": " "
+        "description": " ",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -833,7 +834,8 @@
           "showLabel": true
         },
         "name": "Villa 5 along Rruga 'Qemal Stafa",
-        "description": ""
+        "description": "",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -851,7 +853,8 @@
           "showLabel": true
         },
         "name": "Villa 1 along Rruga 'Siri Kodra'",
-        "description": " "
+        "description": " ",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -869,7 +872,8 @@
           "showLabel": true
         },
         "name": "Villa 2 along Rruga'Siri Kodra'",
-        "description": " "
+        "description": " ",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -887,7 +891,8 @@
           "showLabel": true
         },
         "name": "Villa 1 along Rruga 'Isa Boletini'",
-        "description": " "
+        "description": " ",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -906,7 +911,7 @@
         },
         "name": "Villa 2 on Rruga 'Isa Boletini'",
         "description": " ",
-        "images": foto_ndertesash/Villa_2_on_Rruga_Isa_Boletini.jpg
+        "images": "foto_ndertesash/Villa_2_on_Rruga_Isa_Boletini.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -924,7 +929,8 @@
           "showLabel": true
         },
         "name": "The former 'Punishtia e pastes' building",
-        "description": "Once an industrial building, today half neglected partialy used by mixed functions.  "
+        "description": "Once an industrial building, today half neglected partialy used by mixed functions.  ",
+        "images": ""
       },
       "geometry": {
         "type": "Point",
