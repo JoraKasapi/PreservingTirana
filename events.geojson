@@ -575,7 +575,7 @@
         },
         "name": "Villa on ‘Rruga Elbasanit’",
         "description": " ",
-        "images": "foto_ndertesash/ "
+        "images": "foto_ndertesash/34.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -594,7 +594,7 @@
         },
         "name": "Toptani's Sarajet",
         "description": "Toptani’s Sarajet have been built around 1833-1840, one of the least buildings realized during the feudal order, in Albania. It possesses around 32 rooms decorated in oriental style. It represents a very important architectural complex  constructed with massive bearing walls that give to it the feeling of a fortification  or fortress. It represents a type of  building and construction technique spread in Albania during the second half of the 19th century, during the feudal order. It’s a two storey building, proclaimed Monument of Culture, built with traditional techniques from old masters from Diber. It has special values not only for the  inner functional organization but also for its architectural treatment and decorations. During a period of time it was used as a Bar/cafe, today stands not functional and non-accessible to the public. ",
-        "images": " "
+        "images": "foto_ndertesash/Toptani_s_Sarajet.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -632,7 +632,7 @@
         },
         "name": "Villa on 'Rruga Rreshit Çollaku' ",
         "description": "The villa is situated behind the Central Postal Office and is believed to be owned by one of the richest families of Tirana (a doctor's family). ",
-        "images": " "
+        "images": "foto_ndertesash/rreshit_collaku.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -651,7 +651,7 @@
         },
         "name": "Villa on 'Rruga Sotir Peçi' ",
         "description": "The villa is situated behind the 'Adem Jashari'square on Rruga Durrësit. ",
-        "images": " "
+        "images": "foto_ndertesash/Villa_on_Rruga_Sotir_Peçi.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -670,7 +670,7 @@
         },
         "name": "Villa on 'Rruga Asim Zeneli' ",
         "description": "The villa is situated on the crossroad between Rruga e Elbasanit and Rruga Asim Zeneli'and it's belived it was owned by Dr.Simonidhi ",
-        "images": " "
+        "images": "foto_ndertesash/ "
       },
       "geometry": {
         "type": "Point",
@@ -694,8 +694,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.82590,
-          41.32057
+          19.82552,
+          41.32205,
         ]
       }
     },
