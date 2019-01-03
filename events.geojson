@@ -905,7 +905,8 @@
           "showLabel": true
         },
         "name": "Villa 2 on Rruga 'Isa Boletini'",
-        "description": " "
+        "description": " ",
+        "images": foto_ndertesash/Villa_2_on_Rruga_Isa_Boletini.jpg
       },
       "geometry": {
         "type": "Point",
