@@ -287,7 +287,7 @@
         },
         "name": "Villa on the crossroad between ‘Rr.Mihal Duri’ and ‘Rr.Kont Urani’",
         "description": " ",
-        "images": "foto_ndertesash/Villa_on_the_crossroad_between_Rr.Mihal_Duri_and_Rr.Kont_Urani.jpg"
+        "images": "foto_ndertesash/Villa_on_the_entrance_of_Rruga_Kont_Urani.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -304,9 +304,9 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa on the crossection between ‘Rr.Kont Urani’ and 'Mihal Duri'",
+        "name": "Villa on'Mihal Duri'",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/Villa_on_the_crossroad_between_Rr.Mihal_Duri_and_Rr.Kont_Urani.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -457,9 +457,9 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa on ‘Rruga Tefta Tashko Koco’",
+        "name": "Villa 1 on ‘Rruga Tefta Tashko Koco’",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/Villa_on_the_Entrance_of_Rruga_Tefta_Tashko_Koço.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -478,7 +478,7 @@
         },
         "name": "Villa 2 on ’Rruga Tefta Tashko Koco’",
         "description": " ",
-        "images": " "
+        "images": "foto_ndertesash/villa_2_rr_tefta_tashko_koco.jpg"
       },
       "geometry": {
         "type": "Point",
