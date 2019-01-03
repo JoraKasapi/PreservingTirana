@@ -708,7 +708,7 @@
         },
         "name": "Villa on the Entrance of Rruga 'Tefta Tashko Koço'",
         "description": "The villa is situated  along the main roundabout of 'Avni Rustemi' square. It's a two storey house made out of red brick perimetral walls and concrete-elements window frames. A special charateritic of this villa who differentiates it from several others of the area is an upper strip, closed to the roof, painted with decorative afresco-s. ",
-        "images": " "
+        "images": "foto_ndertesash/Villa_on_the_Entrance_of_Rruga_Tefta_Tashko_Koço.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -727,7 +727,7 @@
         },
         "name": "Villa on 'Rruga Thimi Mitko'",
         "description": "This is a two storey house. Its original owner, is believed to be the cook of King Ahmet Zogu. Since it stands very close, along a very narrow one-way street, you can notice some changes done through the years to close it as much as possible to the street. You can notice its ground floor completly closed by a continuous wall and  the first floor where you can spot all of its windows blocked by another inner wall.  ",
-        "images": " "
+        "images": "foto_ndertesash/Villa_on_Rruga_Thimi_Mitko.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -746,7 +746,7 @@
         },
         "name": "Building on 'Rruga Hoxha Tahsim'",
         "description": "Long, linear two storey building, very close to the 'Avni Rustemi'roundabout ",
-        "images": " "
+        "images": "foto_ndertesash/Building_on_Rruga_Hoxha_Tahsim.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -765,7 +765,7 @@
         },
         "name": "Building in the corner between Rr.Durrësi and Rr.Mihal Duri (In front of the Former Yugoslavian Embassy)",
         "description": "Three storey building. ",
-        "images": " "
+        "images": "foto_ndertesash/Building_in_the_corner_between_Rr.Durrësi_and_Rr.Mihal_Duri_(In front_of_the_Former_Yugoslavian_Embassy).jpg"
       },
       "geometry": {
         "type": "Point",
@@ -804,7 +804,7 @@
         },
         "name": "Villa 1 on Rruga Dibrës, along the Alley",
         "description": " ",
-        "images": ""
+        "images": "foto_ndertesash/VILLA_1_ON_THE_ALLEY_OF_RRUGA_DIBRES.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -842,7 +842,7 @@
         },
         "name": "Villa 5 along Rruga 'Qemal Stafa",
         "description": "",
-        "images": ""
+        "images": "foto_ndertesash/villa_5_on_rr_qemal_stafa3.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -880,7 +880,7 @@
         },
         "name": "Villa 2 along Rruga'Siri Kodra'",
         "description": " ",
-        "images": ""
+        "images": "foto_ndertesash/villa_2_on_rruga_siri_kodra.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -897,9 +897,9 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Villa 1 along Rruga 'Isa Boletini'",
+        "name": "Villa 1 along Rruga'Isa Boletini'",
         "description": " ",
-        "images": ""
+        "images": "foto_ndertesash/Villa_1_on Rruga Isa Boletini.JPG"
       },
       "geometry": {
         "type": "Point",
@@ -937,7 +937,7 @@
         },
         "name": "The former 'Punishtia e pastes' building",
         "description": "Once an industrial building, today half neglected partialy used by mixed functions.  ",
-        "images": ""
+        "images": "foto_ndertesash/The_former_Punishtia_e_pastave.jpg"
       },
       "geometry": {
         "type": "Point",
