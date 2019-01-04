@@ -946,7 +946,28 @@
           41.33597
         ]
       }
-    }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 3 on Rruga Dibrës ",
+        "description": "This house is situated in front of 'Servete Maçi' high school building. "
+        "images": "foto_ndertesash/photo_2019-01-03_19-23-36.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82239,
+          41.33204  
+        ]
+      }
+    },
+
+
 
 
 
