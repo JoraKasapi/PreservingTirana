@@ -965,7 +965,27 @@
           41.33204  
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "The former train station",
+        "description": " "
+        "images": "foto_ndertesash/Stacioni_i_Trenit_t_vjeter.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81644,
+          41.33614     
+        ]
+      }
     }
+
 
 
 
