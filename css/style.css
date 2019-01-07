@@ -39,7 +39,9 @@ h1, h2, h3, p {
 .leaflet-popup-content-wrapper .leaflet-popup-content p {
   margin: 0;
 }
-
+.leaflet-popup-content .event-description {
+    display: none;
+}
 .leaflet-popup-tip-container {
   display: none;
 }

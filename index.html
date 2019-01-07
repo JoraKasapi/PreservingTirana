@@ -85,9 +85,9 @@ var eventsLayer = omnivore.geojson('events.geojson')
       if (link) {
         eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${link}" target="_blank">${description}</a></p><p><img src=${image} width="200px"/></p>`;
       } else if (description) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="200px"/></div>`;
+        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
       } else if(image){
-        eventListItemContent = `<h3>${title}</h3><div><img src=${image} width="200px"/></div>`;
+        eventListItemContent = `<h3>${title}</h3><div><img src=${image} width="300px"/></div>`;
       }
         else{
             eventListItemContent = `<h3>${title}</h3><div>`;
