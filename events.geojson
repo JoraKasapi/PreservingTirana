@@ -984,7 +984,27 @@
           41.33614     
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Kombinati tekstileve'Stalin'",
+        "description": " "
+        "images": "foto_ndertesash/ "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.76552,
+         41.31504  
+        ]
+      }
     }
+
 
 
 
