@@ -420,7 +420,7 @@
         },
         "name": "‘Qemal Stafa’ Stadium",
         "description": " ",
-        "images": "foto_ndertesash/stadiumi_Qemal_stafa.JPG"
+        "images": "foto_ndertesash/"
       },
       "geometry": {
         "type": "Point",
@@ -975,7 +975,7 @@
         },
         "name": "The former train station",
         "description": " ",
-        "images": "foto_ndertesash/Stacioni_i_Trenit_t_vjeter.jpg"
+        "images": " "
       },
       "geometry": {
         "type": "Point",
