@@ -1022,7 +1022,27 @@
           41.32775     
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa 2 on 'Kavaja' street",
+        "description": " ",
+     "images": "foto_ndertesash/Villa_2_on_'Kavaja'_street.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81038,
+          41.32809
+        ]
+      }
     }
+
 
 
 
