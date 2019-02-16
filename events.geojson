@@ -1041,7 +1041,27 @@
           41.32809
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa on Barrikada street",
+        "description": " ",
+        "images": "foto_ndertesash/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81802,
+          41.33469       
+        ]
+      }
     }
+
 
 
 
