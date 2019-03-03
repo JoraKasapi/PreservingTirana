@@ -37,7 +37,7 @@
         "name": "Villa on ‘Çerçiz Topulli’ Street ",
         "description": " ",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -101,7 +101,7 @@
         "name": "'17 Nentori' Cinema– today  City mall ‘Galeria’",
         "description": "The first Cinema in Tirana, also known as Cinema-Theater ‘Nacional’ project realized by the architect Skënder Luarasi, in  1924. It represented a very important cultural center at the time and gathering place for the cities inhabitants. In 1945 took the name ’17 nëntori’ (the date of Tirana’s Independence). It was used as a cinema until 1991 (during which its ownership changed from the ‘Beshiret’ family to the Government). Later on, some popular courts were held in its inner space and after that, it was used for spiritual sessions etc, until it decayed completely and it was given to its original owners back again, but it never returned back to being a cinema again. Finally in 2003, the decision to completely demolish it, was taken and instead of it, a 'Shopping mall'was erected. In the beginning, it was said to save and re-use the existing façade of the building but afterwards this idea wasn’t implemented. Everything from the old Cinema vanished as it apparently never existed, the only thing remaining the same was its name .",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +565,7 @@
         "name": "Villa on ‘Papa Gjon Pali II’ Street",
         "description": " ",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -645,7 +645,7 @@
         "name": "The former 'Ekspozita Shqipëria sot' Building",
         "description": " ",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -705,7 +705,7 @@
         "name": "Villa on 'Asim Zeneli' Street ",
         "description": "The villa is situated on the crossroad between Rruga e Elbasanit and Rruga Asim Zeneli'and it's belived it was owned by Dr.Simonidhi ",
         "linked": "",
-        "images": "foto_ndertesash/ "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -725,7 +725,7 @@
         "name": "Villa of the 'Karajani' Family ",
         "description": "The villa is situated on Rruga e Elbasanit and was designed by the architect Anton Lufi.",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -825,7 +825,7 @@
         "name": "The former Red villa (not existing anymore)",
         "description": "Today trasformed into the luxorious four storey 'Carlsberg' Hotel ",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -844,7 +844,7 @@
           "showLabel": true
         },
         "name": "Villa 1 on 'Dibër' Street, along the Alley",
-        "description": " ",
+        "description": "",
         "linked": "",
         "images": "foto_ndertesash/VILLA_1_ON_THE_ALLEY_OF_RRUGA_DIBRES.JPG"
       },
@@ -1024,9 +1024,9 @@
           "showLabel": true
         },
         "name": "The former Train Station",
-        "description": " ",
+        "description": "",
         "linked": "",
-        "images": " "
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -1106,7 +1106,7 @@
         "name": "Villa on 'Rruga Barrikadave'",
         "description": " ",
         "linked": "",
-        "images": "foto_ndertesash/"
+        "images": ""
       },
       "geometry": {
         "type": "Point",
@@ -1144,7 +1144,7 @@
           "showLabel": true
         },
         "name": "Villa on 'Hilë Mosi' street",
-        "description": " ",
+        "description": "",
         "linked": "",
         "images": "foto_ndertesash/Villa_on_Hille_Mosi_street.jpg"
       },
