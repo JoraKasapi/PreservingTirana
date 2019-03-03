@@ -74,7 +74,7 @@ var eventsLayer = omnivore.geojson('events.geojson')
       var description = layer.feature.properties.description;
       var image =  layer.feature.properties.images;
       var linked = layer.feature.properties.linked;
-      var link = dlinked.match(regexp) ? linked.match(regexp)[0] : undefined;
+      var link = linked.match(regexp) ? linked.match(regexp)[0] : undefined;
       linked = linked.replace(link, '');
 
       if (linked === '' && link !== undefined) {
