@@ -1155,7 +1155,30 @@
           41.333319       
         ]
       }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Building on 'Dritan Hoxha' Street",
+        "description": " ",
+        "linked": "",
+        "images": "foto_ndertesash/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.79877,
+          41.33530       
+        ]
+      }
     }
+
+    
+ 
 
     
 
