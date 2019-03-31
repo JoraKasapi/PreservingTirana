@@ -1214,6 +1214,27 @@
           41.32134           
         ]
       }
+    },
+    
+     {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Puppet Theater",
+        "description": " ",
+       "linked": "More photos of the Puppet Theater\nhttps://commons.wikimedia.org/wiki/Category:Puppet_Theater",
+        "images": "foto_ndertesash/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81090,
+          41.322292
+        ]
+      }
     }
 
 
