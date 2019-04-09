@@ -1236,7 +1236,27 @@
           41.32726   
         ]
       }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "showLabel": true
+        },
+        "name": "Villa on 'Mujo Ulqinaku' street",
+        "description": " ",
+        "images": "foto_ndertesash/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.80924,
+          41.32703     
+        ]
+      }
     }
+
 
 
 
