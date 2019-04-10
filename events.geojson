@@ -1237,25 +1237,27 @@
         ]
       }
     },
-         {
+     {
       "type": "Feature",
       "properties": {
         "_storage_options": {
-          "iconUrl": "/uploads/pictogram/bar-24_1.png",
+          "iconUrl": "https://commons.wikimedia.org/wiki/Category:Villa_on_%27Mujo_Ulqinaku%27_street",
           "showLabel": true
         },
         "name": "Villa on 'Mujo Ulqinaku' street",
-        "description": " ",
+        "description": "Old villa situated close to The Catholic Church 'Zemra e Krishtit, built during the italian occupation.",
         "images": "foto_ndertesash/Villa_on_Mujo_Ulqinaku_street2.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.80924,
-          41.32703     
+          19.80929,
+          41.32700     
         ]
       }
     }
+
+  
 
 
 
