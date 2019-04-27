@@ -1166,7 +1166,7 @@
         "name": "Building on 'Dritan Hoxha' Street",
         "description": " ",
         "linked": "More photos of the Building\nhttps://commons.wikimedia.org/wiki/Category:Building_on_%27Dritan_Hoxha%27_Street",
-        "images": "foto_ndertesash/"
+        "images": "foto_ndertesash/Building_along_Dritan_Hoxha_street.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -1183,10 +1183,10 @@
           "iconUrl": "/uploads/pictogram/bar-24_1.png",
           "showLabel": true
         },
-        "name": "Building along Tiranë-Durrë highway",
+        "name": "Radio Tirana's medium wave transmitter Kashar",
         "description": " ",
         "linked": "More photos of the Building\nhttps://commons.wikimedia.org/wiki/Category:Building_along_Tiran%C3%AB-Durr%C3%AB_highway",
-        "images": "foto_ndertesash/"
+        "images": "foto_ndertesash/Radio_Tirana’s_medium-wave_transmitter_Kashar.jpg"
       },
       "geometry": {
         "type": "Point",
