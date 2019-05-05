@@ -1255,7 +1255,28 @@
           41.32700     
         ]
       }
+    },
+    
+       {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": " ",
+          "showLabel": true
+        },
+        "name": "The former 'Villa Ivanaj'",
+        "description": " ",
+        "images": "foto_ndertesash/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81729,
+          41.31780   
+        ]
+      }
     }
+
 
   
 
