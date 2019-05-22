@@ -1277,7 +1277,28 @@
           41.32701         
         ]
       }
+    },
+         {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconUrl": " ",
+          "showLabel": true
+        },
+        "name": "The former Enver Hoxha's Villa",
+        "description": " ",
+        "linked": "More photos of the Villa\n",
+        "images": "foto_ndertesash/Former_Enver_Hoxha_House.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81731,
+          41.32105    
+        ]
+      }
     }
+
 
 
 
