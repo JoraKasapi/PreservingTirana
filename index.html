@@ -68,8 +68,8 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
 
       var title = layer.feature.properties.name;
       var description = layer.feature.properties.description;
-      var image =  layer.feature.properties.images;
-      var large = layer.feature.properties.fullimage;
+      var image =  layer.feature.properties.image;
+      var large = layer.feature.properties.large;
       var linked = layer.feature.properties.linked;
       var link = linked.match(regexp) ? linked.match(regexp)[0] : undefined;
       linked = linked.replace(link, '');
