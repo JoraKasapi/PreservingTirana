@@ -22,6 +22,9 @@ h1, h2, h3, p {
   padding-right: 15px;
   width: 110px;
 }
+.mt-3 {
+  margin-top: 0.5rem !important;
+}
 .leaflet-popup-content-wrapper {
   border: 0.3rem #24625C solid;
   border-radius: 0;
