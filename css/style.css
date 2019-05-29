@@ -52,6 +52,7 @@ h1, h2, h3, p {
 }
 .event-item > .event-description {
   font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 .event-description a, .info-container a {
   display: inline-block;
