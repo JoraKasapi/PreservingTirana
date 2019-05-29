@@ -8,15 +8,11 @@
   <meta property="og:url" content="http://jorakasapi.com/LostTirana"/>
   <title>PreservingTirana</title>
   <link rel="icon" type="image/png" href="img/preserving_tirana_logo-01.png" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-  crossorigin=""/>
+  <link rel="stylesheet" href="css/leaflet.css" />
   <link rel="stylesheet" href="css/style.css"/>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
+  <script src="js/leaflet-src.js"></script>
   <script src="js/leaflet-providers.js"></script>
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+  <script src="js/leaflet-omnivore.min.js"></script>
 </head>
 <body>
   <div class="map-container">
@@ -24,7 +20,7 @@
   </div>
   <div class="info-container">
 <div>
-<img src="img/preserving_tirana_logo.png" style="float: left;padding-right: 15px;" width="100px;">
+<img src="img/preserving_tirana_logo.png" style="float: left;padding-right: 15px;" width="110px;">
     <h2>'Undesired' Buildings of Tirana</h2>
     <p>Map of the neglected buildings of Tirana </p>
 <br>
@@ -36,8 +32,8 @@
 </div>    
 <div class="event-list">
     </div>
-	  <p class="footer">Made with &lt;3 by <a href="http://jorakasapi.com">Jora Kasapi</a>. Find the source code <a href="https://github.com/JoraKasapi/LostTiranaBuildings" target="_blank" rel="noopener">on Github</a>.</p>
-	  <p  class="footer">Many thanks to amazing contributors of the project documented <a href="contributors.html">here</a></p>.
+	  <p class="footer">Made with ❤️ by <a href="http://jorakasapi.com">Jora Kasapi</a>. Find the source code <a href="https://github.com/JoraKasapi/PreservingTirana" target="_blank" rel="noopener">on Github</a>.</p>
+	  <p class="footer">Many thanks to amazing contributors of the project documented <a href="contributors">here</a>.</p>
   </div>
 
 
@@ -56,7 +52,7 @@ var GreenIcon = L.icon({
     iconSize: [28, 28]
 });
 
-var eventsLayer = omnivore.geojson('events.geojson')
+var eventsLayer = omnivore.geojson('buildings.geojson')
   .on('ready', function() {
     map.fitBounds(eventsLayer.getBounds());
 
@@ -84,14 +80,14 @@ var eventsLayer = omnivore.geojson('events.geojson')
       var eventListItemContent = '';
 
       if (link) {
-          eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><img src=${image} width="200px"/></p>`;
+          eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><img src=${image} width="200px"/></p>`;
       } else if (description) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
       } else if(image){
-        eventListItemContent = `<h3>${title}</h3><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3 id="${title}">${title}</h3><div><img src=${image} width="300px"/></div>`;
       }
         else{
-            eventListItemContent = `<h3>${title}</h3><div>`;
+            eventListItemContent = `<h3 id="${title}">${title}</h3><div>`;
         }
 
       layer.bindPopup(eventListItemContent);
