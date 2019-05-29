@@ -22,7 +22,7 @@
   </div>
   <div class="info-container">
     <div>
-      <img class="logo" src="img/preserving_tirana_logo.png">
+      <img class="logo" src="img/preserving_tirana_logo.png" />
       <h2>'Undesired' Buildings of Tirana</h2>
       <p>Map of the neglected buildings of Tirana</p>
       <br>
@@ -81,7 +81,7 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
     var eventListItemContent = '';
 
     if (link) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${large}"><img src=${image} width="300px"/></a></p>`;
+        eventListItemContent = `<h3>${title}</h3><p><a href="${large}"><img src=${image} width="300px"/></a></p>`;
     } else if (description) {
       eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
     } else if(image){
