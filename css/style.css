@@ -17,6 +17,11 @@ h1, h2, h3, p {
   height: 100%;
   width: 100%;
 }
+.logo {
+  float: left;
+  padding-right: 15px;
+  width: 110px;
+}
 .leaflet-popup-content-wrapper {
   border: 0.3rem #24625C solid;
   border-radius: 0;
@@ -47,8 +52,8 @@ h1, h2, h3, p {
 }
 .event-item {
   border: 0.25rem #000 solid;
-  padding: 0.25rem;
-  margin: 0.25rem 0;
+  padding: 0.5rem;
+  margin: 0.3rem 0;
 }
 .event-item > .event-description {
   font-size: 0.8rem;
