@@ -41,7 +41,7 @@
 var exp = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi;
 var regexp = new RegExp(exp);
 
-var eventList = document.querySelector('.event-list')
+var eventsList = document.querySelector('.event-list')
 
 var map = L.map('map').setView([41.3282,19.8158], 14.3);
 L.tileLayer.provider('CartoDB.Positron').addTo(map);
@@ -81,7 +81,7 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
       var eventListItemContent = '';
 
       if (link) {
-          eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><a href="${large}"><img src=${image} width="200px"/></a></p>`;
+          eventListItemContent = `<h3>${title}</h3><a href="${link}" target="_blank">${linked}</a></p><p><a href="${large}"><img src=${image} width="200px"/></a></p>`;
       } else if (description) {
         eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
       } else if(image){
@@ -92,10 +92,24 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
         }
 
       layer.bindPopup(eventListItemContent);
-      var eventListItem = document.createElement('div');
-      eventListItem.className = "event-item";
-      eventListItem.innerHTML = eventListItemContent;
-      eventList.appendChild(eventListItem);
+
+      var eventsListItemContent = '';
+
+      if (link) {
+          eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p>`;
+      } else if (description) {
+        eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
+      } else if(image){
+        eventsListItemContent = `<h3>${title}</h3>`;
+      }
+        else{
+            eventsListItemContent = `<h3>${title}</h3>`;
+        }
+
+      var eventsListItem = document.createElement('div');
+      eventsListItem.className = "event-item";
+      eventsListItem.innerHTML = eventsListItemContent;
+      eventsList.appendChild(eventsListItem);
     });
   })
   .addTo(map);
