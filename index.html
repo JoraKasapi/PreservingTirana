@@ -14,6 +14,7 @@
   <script src="js/leaflet-src.js"></script>
   <script src="js/leaflet-providers.js"></script>
   <script src="js/leaflet-omnivore.min.js"></script>
+  <script src="js/top.min.js"></script>
 </head>
 
 <body>
@@ -93,21 +94,36 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
 
     layer.bindPopup(eventListItemContent);
 
+    layer.on('click', onPinClick);
+
+    function onPinClick(e) {
+    document.getElementById(`${title}`).style.border="0.35rem #24625C solid";
+    window.location.href = `#${title}`;
+    }
+
+    map.on('click', onOutClick);
+
+    function onOutClick(e) {
+    document.getElementById(`${title}`).style.border="0.25rem #000 solid";
+    window.location.href = "#";
+    }
+
     var eventsListItemContent = '';
 
     if (link) {
-        eventsListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p>`;
+        eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p>`;
     } else if (description) {
-      eventsListItemContent = `<h3 id="${title}>${title}</h3><p class="event-description">${description}</p>`;
+      eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
     } else if(image){
-      eventsListItemContent = `<h3 id="${title}>${title}</h3>`;
+      eventsListItemContent = `<h3>${title}</h3>`;
     }
       else{
-          eventsListItemContent = `<h3 id="${title}>${title}</h3>`;
+          eventsListItemContent = `<h3>${title}</h3>`;
       }
 
     var eventsListItem = document.createElement('div');
     eventsListItem.className = "event-item";
+    eventsListItem.id = `${title}`;
     eventsListItem.innerHTML = eventsListItemContent;
     eventsList.appendChild(eventsListItem);
   });
@@ -129,5 +145,13 @@ console.log('small device => map zoomable now');
 // disable scroll zoom
 map.scrollWheelZoom.disable();
 }
+</script>
+
+<script>
+addBackToTop({
+  diameter: 52,
+  backgroundColor: '#24625C',
+  textColor: '#fff'
+})
 </script>
 </body>
