@@ -27,9 +27,9 @@
     <p>Read about the background of this project through the articles and links (in Albanian) below:<br><a href="https://medium.com/@jorakasapi/nd%C3%ABrt%C3%ABsat-e-pad%C3%ABshiruara-te-tiran%C3%ABs-f17d8a7e0ff3" target="_blank">Medium.com: Ndërtesat e padëshiruara të Tiranës
 	  </a> </p>
     <p><a href="https://medium.com/@jorakasapi/kontributi-yt-4a84d8c54e1c">Përfshihu dhe ti në projekt</a></p>
-    <p><a href="https://tinyletter.com/jorakasapi/">Register to the newsletter for project updates</a></p>	
-    
-</div>    
+    <p><a href="https://tinyletter.com/jorakasapi/">Register to the newsletter for project updates</a></p>
+
+</div>
 <div class="event-list">
     </div>
 	  <p class="footer">Made with ❤️ by <a href="http://jorakasapi.com">Jora Kasapi</a>. Find the source code <a href="https://github.com/JoraKasapi/PreservingTirana" target="_blank" rel="noopener">on Github</a>.</p>
@@ -69,6 +69,7 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
       var title = layer.feature.properties.name;
       var description = layer.feature.properties.description;
       var image =  layer.feature.properties.images;
+      var large = layer.feature.properties.fullimage;
       var linked = layer.feature.properties.linked;
       var link = linked.match(regexp) ? linked.match(regexp)[0] : undefined;
       linked = linked.replace(link, '');
@@ -80,14 +81,14 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
       var eventListItemContent = '';
 
       if (link) {
-          eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><img src=${image} width="200px"/></p>`;
+          eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><a href="${large}"><img src=${image} width="200px"/></a></p>`;
       } else if (description) {
-        eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
       } else if(image){
-        eventListItemContent = `<h3 id="${title}">${title}</h3><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
       }
         else{
-            eventListItemContent = `<h3 id="${title}">${title}</h3><div>`;
+            eventListItemContent = `<h3>${title}</h3><div>`;
         }
 
       layer.bindPopup(eventListItemContent);
