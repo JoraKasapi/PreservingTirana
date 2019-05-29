@@ -56,7 +56,7 @@ var GreenIcon = L.icon({
     iconSize: [28, 28]
 });
 
-var eventsLayer = omnivore.geojson('events.geojson')
+var eventsLayer = omnivore.geojson('buildings.geojson')
   .on('ready', function() {
     map.fitBounds(eventsLayer.getBounds());
 
@@ -84,14 +84,14 @@ var eventsLayer = omnivore.geojson('events.geojson')
       var eventListItemContent = '';
 
       if (link) {
-          eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><img src=${image} width="200px"/></p>`;
+          eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}<br><a href="${link}" target="_blank">${linked}</a></p><p><img src=${image} width="200px"/></p>`;
       } else if (description) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3 id="${title}">${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
       } else if(image){
-        eventListItemContent = `<h3>${title}</h3><div><img src=${image} width="300px"/></div>`;
+        eventListItemContent = `<h3 id="${title}">${title}</h3><div><img src=${image} width="300px"/></div>`;
       }
         else{
-            eventListItemContent = `<h3>${title}</h3><div>`;
+            eventListItemContent = `<h3 id="${title}">${title}</h3><div>`;
         }
 
       layer.bindPopup(eventListItemContent);
