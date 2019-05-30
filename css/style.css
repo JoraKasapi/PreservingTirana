@@ -29,6 +29,12 @@ h1, h2, h3, p {
 .mt-3 {
   margin-top: 0.5rem !important;
 }
+.existance {
+  float: right;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #e03131;
+}
 .leaflet-popup-content-wrapper {
   border: 0.3rem #24625C solid;
   border-radius: 0;
