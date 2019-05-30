@@ -72,6 +72,7 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
     var image =  layer.feature.properties.image;
     var large = layer.feature.properties.large;
     var linked = layer.feature.properties.linked;
+    var exists = layer.feature.properties.exists;
     var link = linked.match(regexp) ? linked.match(regexp)[0] : undefined;
     linked = linked.replace(link, '');
 
@@ -82,13 +83,13 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
     var eventListItemContent = '';
 
     if (link) {
-        eventListItemContent = `<h3>${title}</h3><p class="mt-3"><a href="${large}"><img src=${image} width="300px"/></a></p>`;
+      eventListItemContent = `<h3>${title}</h3><p class="mt-3"><a href="${large}"><img src=${image} width="300px"/></a></p>`;
     } else if (description) {
       eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
     } else if(image){
       eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
     }
-      else{
+      else {
           eventListItemContent = `<h3>${title}</h3><div>`;
       }
 
@@ -112,15 +113,15 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
 
     var eventsListItemContent = '';
 
-    if (link) {
-        eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a class="mt-3" href="${link}" target="_blank">${linked}</a></p>`;
+    if (link && exists == "no") {
+      eventsListItemContent = `<h3>${title} <span class="existance">Demolished</span></h3><p class="event-description">${description}<br><a class="mt-3" href="${link}" target="_blank">${linked}</a></p>`;
     } else if (description) {
       eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
     } else if(image){
       eventsListItemContent = `<h3>${title}</h3>`;
     }
-      else{
-          eventsListItemContent = `<h3>${title}</h3>`;
+      else {
+          eventsListItemContent = `<h3>${title} <span class="existance">Demolished</span></h3>`;
       }
 
     var eventsListItem = document.createElement('div');
