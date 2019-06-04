@@ -1158,6 +1158,24 @@
           41.32105
         ]
       }
+    },
+          {
+      "type": "Feature",
+      "properties": {
+        "name": "Queen Mother Pedagogical Institute",
+        "description": " ",
+        "linked": "More photos of the Institute\nhttps://commons.wikimedia.org/wiki/File:Instituti_femnuer_Nana_Mbretneshe.jpg",
+        "image": "foto_ndertesash/small/Instituti_femnuer_Nana_Mbretneshe.jpg",
+        "large": "foto_ndertesash/Instituti_femnuer_Nana_Mbretneshe.jpg",
+        "exists": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82490,
+          41.32812         
+        ]
+      }
     }
 
 
