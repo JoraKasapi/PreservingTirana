@@ -9,7 +9,7 @@
         "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_on_Rruga_Dervish_Hatixhe",
         "image": "foto_ndertesash/small/Villa_on_Rruga_Dervish_Hatixhe_small.jpg",
         "large": "foto_ndertesash/Villa_on_Rruga_Dervish_Hatixhe.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +81,7 @@
         "linked": "More photos of '17 Nentori'\nhttps://commons.wikimedia.org/wiki/Category:Cinema_%2717_N%C3%ABntori%27",
         "image": "",
         "large": "",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -351,7 +351,7 @@
         "linked": "More photos of the Museum\nhttps://commons.wikimedia.org/wiki/Category:Nature_Science_Museum",
         "image": "foto_ndertesash/small/muzeu_i_shkencave_small.jpg",
         "large": "foto_ndertesash/muzeu_i_shkencave.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -387,7 +387,7 @@
         "linked": "More photos of the Stadium\nhttps://commons.wikimedia.org/wiki/Category:The_pyramid",
         "image": "foto_ndertesash/small/Tirana_stadio_qemal_stafa_small.jpg",
         "large": "foto_ndertesash/Tirana_stadio_qemal_stafa.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -400,7 +400,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Villa at the end of ’Barrikadave’ Street (not existing anymore)",
+        "name": "Villa at the end of ’Barrikadave’ Street",
         "description": " ",
         "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_at_the_end_of_%E2%80%99Rruga_Barrikadave%E2%80%99",
         "image": "foto_ndertesash/small/ASDDAD_small.jpg",
@@ -534,7 +534,7 @@
         "linked":"More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_on_%E2%80%98Rruga_Elbasanit%E2%80%99",
         "image": "foto_ndertesash/small/Villa_on_'Elbasani'_street_small.jpg",
         "large": "foto_ndertesash/Villa_on_'Elbasani'_street.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +570,7 @@
         "linked": "More photos of 'Ekspozita Shqiperia sot'\nhttps://commons.wikimedia.org/wiki/Category:The_former_%27Ekspozita_Shqip%C3%ABria_sot%27_Building",
         "image": "foto_ndertesash/small/The_former_exhibition_Shqiperia_sot_small.jpg",
         "large": "foto_ndertesash/The_former_exhibition_Shqiperia_sot.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -913,7 +913,7 @@
         "linked": "More photos of the Station\nhttps://commons.wikimedia.org/wiki/The_former_Train_Station_of_Tirana",
         "image": "",
         "large": "",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
@@ -1109,11 +1109,11 @@
       "type": "Feature",
       "properties": {
         "name": "The former 'Villa Ivanaj'",
-        "description": " ",
+        "description": "The history of Villa Ivanaj is closly related with the history of the two Ivanaj brothers and their families, Martin and Mirash Ivanaj, both of them two very illustrious figures who invested a lot in the preservation and development of the education and Albanian language. Mirash Ivanaj as the younger brother held the position of the Minister of Education around 1933-1935 and on the other hand Martin was a very important lawyer and judge. The two of them  together created the biggest private library with the biggest amount of books, that is still preserved today in the Building that today  hosts the’ Ivanaj Institute ‘, but once used to be the residence Villa of the Ivanaj family. The Villa was built around 1939 during the Italian occupation and at that time wasn’t completely finished, it consisted of 14 rooms. Afterwards the Villa was confiscated by the Italian Military forces  and during the years several additional units of different functions were added to the Villa’s site. Drita Ivanaj (daughter of Martin),  therefore legal owner of the Ivanaj properties in Tirana, was finally able to take physical possession of her ex-residence and land in this capital city on June 5th, 2009.  She had obtained title to this legacy in 1995, but could not access or use it until the military unit that occupied it for decades, free of charge. Today instead of this Villa there’s a  mixed-use building where on the main ground floors , ‘The Ivanaj Institute of Albania’ organizes its everyday activities.",
         "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/The_former_%27Villa_Ivanaj%27",
         "image": "foto_ndertesash/small/Villa_Ivanaj_small.jpg",
         "large": "foto_ndertesash/Villa_Ivanaj.jpg",
-        "exists": ""
+        "exists": "no"
       },
       "geometry": {
         "type": "Point",
