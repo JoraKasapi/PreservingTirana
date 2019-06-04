@@ -98,6 +98,11 @@ var eventsLayer = omnivore.geojson('buildings.geojson')
     layer.on('click', onPinClick);
 
     function onPinClick(e) {
+    const eventslist = document.querySelectorAll(".event-item");
+    eventslist.forEach(element => {
+    element.style.border = "0.25rem #000 solid";
+    element.style.color="#000";
+    });
     document.getElementById(`${title}`).style.border="0.5rem #24625C solid";
     document.getElementById(`${title}`).style.color="#24625C";
     window.location.href = `#${title}`;
