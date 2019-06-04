@@ -1,121 +1,162 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Undesired Buildings of Tirana">
-  <meta property="og:image" content="img/events-small.png"/>
-  <meta property="og:title" content="Map of the neglected buildings of Tirana "/>
-  <meta property="og:url" content="http://jorakasapi.com/LostTirana"/>
+  <meta property="og:image" content="img/buildings.png" />
+  <meta property="og:title" content="Map of the neglected buildings of Tirana " />
+  <meta property="og:url" content="http://jorakasapi.com/LostTirana" />
   <title>PreservingTirana</title>
   <link rel="icon" type="image/png" href="img/preserving_tirana_logo-01.png" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-  crossorigin=""/>
-  <link rel="stylesheet" href="css/style.css"/>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/leaflet-src.js"></script>
   <script src="js/leaflet-providers.js"></script>
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+  <script src="js/leaflet-omnivore.min.js"></script>
+  <script src="js/top.min.js"></script>
 </head>
+
 <body>
   <div class="map-container">
     <div id="map"></div>
   </div>
   <div class="info-container">
-<div>
-<img src="img/preserving_tirana_logo.png" style="float: left;padding-right: 15px;" width="100px;">
-    <h2>'Undesired' Buildings of Tirana</h2>
-    <p>Map of the neglected buildings of Tirana </p>
-<br>
-    <p>Read about the background of this project through the articles and links (in Albanian) below:<br><a href="https://medium.com/@jorakasapi/nd%C3%ABrt%C3%ABsat-e-pad%C3%ABshiruara-te-tiran%C3%ABs-f17d8a7e0ff3" target="_blank">Medium.com: Ndërtesat e padëshiruara të Tiranës
-	  </a> </p>
-    <p><a href="https://medium.com/@jorakasapi/kontributi-yt-4a84d8c54e1c">Përfshihu dhe ti në projekt</a></p>
-    <p><a href="https://tinyletter.com/jorakasapi/">Register to the newsletter for project updates</a></p>	
-    
-</div>    
-<div class="event-list">
+    <div>
+      <img class="logo" src="img/preserving_tirana_logo.png" />
+      <h2>'Undesired' Buildings of Tirana</h2>
+      <p>Map of the neglected buildings of Tirana</p>
+      <br>
+      <p>Read about the background of this project through the articles and links (in Albanian) below:</p>
+      <p><a href="https://medium.com/@jorakasapi/nd%C3%ABrt%C3%ABsat-e-pad%C3%ABshiruara-te-tiran%C3%ABs-f17d8a7e0ff3" target="_blank" rel="noopener">Medium.com: Ndërtesat e padëshiruara të Tiranës</a></p>
+      <p><a href="https://medium.com/@jorakasapi/kontributi-yt-4a84d8c54e1c" target="_blank" rel="noopener">Përfshihu dhe ti në projekt</a></p>
+      <p><a href="https://tinyletter.com/jorakasapi/" target="_blank" rel="noopener">Register to the newsletter for project updates</a></p>
     </div>
-	  <p class="footer">Made with &lt;3 by <a href="jorakasapi.com">Jora Kasapi</a>. Find the source code <a href="https://github.com/JoraKasapi/LostTiranaBuildings" target="_blank" rel="noopener">on Github</a>.</p>
-	  <p  class="footer">Many thanks to amazing contributors of the project documented <a href="contributors.html">here</a></p>.
+    <div class="event-list">
+    </div>
+    <p class="footer">Made with ❤️ by <a href="http://jorakasapi.com">Jora Kasapi</a>. Find the source code <a href="https://github.com/JoraKasapi/PreservingTirana" target="_blank" rel="noopener">on Github</a>.</p>
+    <p class="footer">Many thanks to amazing contributors of the project documented <a href="contributors">here</a>.</p>
   </div>
 
-
-  <script>
+<script>
 var exp = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi;
 var regexp = new RegExp(exp);
 
-var eventList = document.querySelector('.event-list')
+var eventsList = document.querySelector('.event-list')
 
 var map = L.map('map').setView([41.3282,19.8158], 14.3);
 L.tileLayer.provider('CartoDB.Positron').addTo(map);
 
 var GreenIcon = L.icon({
-    iconUrl: 'img/map-icon.svg',
-    iconRetinaUrl: 'img/favicon.png',
-    iconSize: [28, 28]
+  iconUrl: 'img/map-icon.svg',
+  iconRetinaUrl: 'img/map-icon.svg',
+  iconSize: [28, 28]
 });
 
-var eventsLayer = omnivore.geojson('events.geojson')
-  .on('ready', function() {
-    map.fitBounds(eventsLayer.getBounds());
+var eventsLayer = omnivore.geojson('buildings.geojson')
+.on('ready', function() {
+  map.fitBounds(eventsLayer.getBounds());
 
-    // After the 'ready' event fires, the GeoJSON contents are accessible
-    // and you can iterate through layers to bind custom popups.
-    eventsLayer.eachLayer(function(layer) {
-    // See the `.bindPopup` documentation for full details. This
-    // dataset has a property called `name`: your dataset might not,
-    // so inspect it and customize to taste.
-      if (layer instanceof L.Marker) {
-        layer.setIcon(GreenIcon);
+  // After the 'ready' event fires, the GeoJSON contents are accessible
+  // and you can iterate through layers to bind custom popups.
+  eventsLayer.eachLayer(function(layer) {
+  // See the `.bindPopup` documentation for full details. This
+  // dataset has a property called `name`: your dataset might not,
+  // so inspect it and customize to taste.
+    if (layer instanceof L.Marker) {
+      layer.setIcon(GreenIcon);
+    }
+
+    var title = layer.feature.properties.name;
+    var description = layer.feature.properties.description;
+    var image =  layer.feature.properties.image;
+    var large = layer.feature.properties.large;
+    var linked = layer.feature.properties.linked;
+    var exists = layer.feature.properties.exists;
+    var link = linked.match(regexp) ? linked.match(regexp)[0] : undefined;
+    linked = linked.replace(link, '');
+
+    if (linked === '' && link !== undefined) {
+      description = 'Link';
+    }
+
+    var eventListItemContent = '';
+
+    if (link) {
+      eventListItemContent = `<h3>${title}</h3><p class="mt-3"><a href="${large}"><img src=${image} width="300px"/></a></p>`;
+    } else if (description) {
+      eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
+    } else if(image){
+      eventListItemContent = `<h3>${title}</h3><div><a href="${large}"><img src=${image} width="300px"/></a></div>`;
+    }
+      else {
+          eventListItemContent = `<h3>${title}</h3><div>`;
       }
 
-      var title = layer.feature.properties.name;
-      var description = layer.feature.properties.description;
-      var image =  layer.feature.properties.images;
-      var link = description.match(regexp) ? description.match(regexp)[0] : undefined;
-      description = description.replace(link, '');
+    layer.bindPopup(eventListItemContent);
 
-      if (description === '' && link !== undefined) {
-        description = 'Link';
+    layer.on('click', onPinClick);
+
+    function onPinClick(e) {
+    document.getElementById(`${title}`).style.border="0.5rem #24625C solid";
+    document.getElementById(`${title}`).style.color="#24625C";
+    window.location.href = `#${title}`;
+    }
+
+    map.on('click', onOutClick);
+
+    function onOutClick(e) {
+    document.getElementById(`${title}`).style.border="0.25rem #000 solid";
+    document.getElementById(`${title}`).style.color="#000";
+    window.location.href = "#";
+    }
+
+    var eventsListItemContent = '';
+
+    if (link && exists == "no") {
+      eventsListItemContent = `<h3>${title} <span class="existance">Demolished</span></h3><p class="event-description">${description}<br><a class="mt-3" href="${link}" target="_blank">${linked}</a></p>`;
+    } else if (link && (exists == "yes" || exists == "")) {
+      eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}<br><a class="mt-3" href="${link}" target="_blank">${linked}</a></p>`;
+    } else if (description) {
+      eventsListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p>`;
+    } else if (image) {
+      eventsListItemContent = `<h3>${title}</h3>`;
+    }
+      else {
+          eventsListItemContent = `<h3>${title}</h3>`;
       }
 
-      var eventListItemContent = '';
-
-      if (link) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description"><a href="${link}" target="_blank">${description}</a></p><p><img src=${image} width="200px"/></p>`;
-      } else if (description) {
-        eventListItemContent = `<h3>${title}</h3><p class="event-description">${description}</p><div><img src=${image} width="300px"/></div>`;
-      } else if(image){
-        eventListItemContent = `<h3>${title}</h3><div><img src=${image} width="300px"/></div>`;
-      }
-        else{
-            eventListItemContent = `<h3>${title}</h3><div>`;
-        }
-
-      layer.bindPopup(eventListItemContent);
-      var eventListItem = document.createElement('div');
-      eventListItem.className = "event-item";
-      eventListItem.innerHTML = eventListItemContent;
-      eventList.appendChild(eventListItem);
-    });
-  })
-  .addTo(map);
+    var eventsListItem = document.createElement('div');
+    eventsListItem.className = "event-item";
+    eventsListItem.id = `${title}`;
+    eventsListItem.innerHTML = eventsListItemContent;
+    eventsList.appendChild(eventsListItem);
+  });
+})
+.addTo(map);
 
 var CartoDB= L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/{variant}/{z}/{x}/{y}{r}.png', {
-  attribution: '{attribution.OpenStreetMap} &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-	subdomains: 'abcd',
-	minZoom: 0,
-  maxZoom: 21,
-  variant: 'light_all'
+attribution: '{attribution.OpenStreetMap} &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+subdomains: 'abcd',
+minZoom: 0,
+maxZoom: 21,
+variant: 'light_all'
 });
 
 var mq = window.matchMedia('screen and (max-width: 1080px) and (min-resolution: 3dppx), screen and (max-width: 960px)');
 if(mq.matches) {
-  console.log('small device => map zoomable now');
+console.log('small device => map zoomable now');
 } else {
-  // disable scroll zoom
-  map.scrollWheelZoom.disable();
+// disable scroll zoom
+map.scrollWheelZoom.disable();
 }
-  </script>
+</script>
+
+<script>
+addBackToTop({
+  diameter: 52,
+  backgroundColor: '#24625C',
+  textColor: '#fff'
+})
+</script>
 </body>
