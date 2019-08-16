@@ -69,8 +69,9 @@ h1, h2, h3, p {
   margin: 0.3rem 0;
 }
 .event-item > .event-description {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
+  line-height: 1.5rem;
 }
 .event-description a, .info-container a {
   display: inline-block;
