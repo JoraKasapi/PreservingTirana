@@ -63,6 +63,9 @@ h1, h2, h3, p {
   max-height: 100%;
   overflow-y: scroll;
 }
+.event-list {
+  padding-top:2rem;
+}
 .event-item {
   border: 0.25rem #000 solid;
   padding: 0.5rem;
