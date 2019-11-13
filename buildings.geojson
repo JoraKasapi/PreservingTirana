@@ -1173,7 +1173,7 @@
         "type": "Point",
         "coordinates": [
           19.82490,
-          41.32812         
+          41.32812
         ]
       }
     },
@@ -1182,19 +1182,19 @@
       "properties": {
         "name": "Villa 'Ambasador'",
         "description": "",
-        "linked": "More photos of the Villa\n",
-        "image": "foto_ndertesash/small/",
-        "large": "foto_ndertesash/Instituti_f",
+        "linked": "",
+        "image": "",
+        "large": "",
         "exists": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           19.82478,
-          41.31997           
+          41.31997
         ]
       }
-    } 
+    }
 
 
   ]
