@@ -861,24 +861,7 @@
         "large": "foto_ndertesash/The_former_Punishtia_e_pastave.jpg",
         "exists": ""
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.82103,
-          41.33597
-        ]
-      }
-    },
-     {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa 3 on 'Dibër' Street",
-        "description": "This house is situated in front of 'Servete Maçi' high school building.",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_3_on_Rruga_Dibr%C3%ABs",
-        "image": "foto_ndertesash/small/Villa 3 on 'Dibër' Street_small.jpg",
-        "large": "foto_ndertesash/Villa 3 on 'Dibër' Street.jpg",
-        "exists": ""
-      },
+ 
       "geometry": {
         "type": "Point",
         "coordinates": [
