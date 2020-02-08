@@ -11,16 +11,7 @@
         "large": "foto_ndertesash/Villa_on_Rruga_Dervish_Hatixhe.jpg",
         "exists": "no"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.817756,
-          41.333471
-        ]
-      }
-    },
-   
-      "geometry": {
+   "geometry": {
         "type": "Point",
         "coordinates": [
           19.819454,
