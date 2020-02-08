@@ -11,11 +11,11 @@
         "large": "foto_ndertesash/Villa_on_Rruga_Dervish_Hatixhe.jpg",
         "exists": "no"
       },
-   "geometry": {
+      "geometry": {
         "type": "Point",
         "coordinates": [
-          19.819454,
-          41.334086
+          19.81777,
+          41.33342     
         ]
       }
     },
@@ -58,7 +58,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "'17 Nentori' Cinema– today  City mall ‘Galeria’",
+        "name": "'17 Nentori'Cinema– today City mall ‘Galeria’",
         "description": "The first Cinema in Tirana, also known as Cinema-Theater ‘Nacional’ project realized by the architect Skënder Luarasi, in  1924. It represented a very important cultural center at the time and gathering place for the cities inhabitants. In 1945 took the name ’17 nëntori’ (the date of Tirana’s Independence). It was used as a cinema until 1991 (during which its ownership changed from the ‘Beshiret’ family to the Government).It was dominated by three high arches that sustained the projection cabin. The entrance was resolved with a certain simplicity and showed the professional skills of the author. The main hall was small and the black marble coverings had a certain calming effect. From there, you could walk in the ‘platea’ auditorium or go upstairs to the ‘logias’ . The main cinema hall was well proportioned and with optimal auditive and visual parameters. On the right side were the doors to the exit. There was also a summer cinema that was very well connected with that winter cinema hall. It was the most luxurious Cinema in the capital during the king's regime and during the occupation also.  Later on, some popular courts were held in its inner space and after that, it was used for spiritual sessions etc, until it decayed completely and it was given to its original owners back again, but it never returned back to being a cinema again. Finally in 2003, the decision to completely demolish it, was taken and instead of it, a 'Shopping mall'was erected. In the beginning, it was said to save and re-use the existing façade of the building but afterwards this idea wasn’t implemented. Everything from the old Cinema vanished as it apparently never existed, the only thing remaining the same was its name .",
         "linked": "More photos of '17 Nentori'\nhttps://commons.wikimedia.org/wiki/Category:Cinema_%2717_N%C3%ABntori%27",
         "image": "",
