@@ -19,16 +19,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa on ‘Çerçiz Topulli’ Street ",
-        "description": " ",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_on_Rruga_Dervish_Hatixhe",
-        "image": "",
-        "large": "",
-        "exists": ""
-      },
+   
       "geometry": {
         "type": "Point",
         "coordinates": [
