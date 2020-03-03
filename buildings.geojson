@@ -333,24 +333,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Villa 1 on ‘Tefta Tashko Koco’ Street",
-        "description": " ",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_1_on_%E2%80%98Rruga_Tefta_Tashko_Koco%E2%80%99mmons.wikimedia.org/wiki/Category:Villa_at_the_end_of_%E2%80%99Rruga_Barrikadave%E2%80%99",
-        "image": "foto_ndertesash/small/villa_2_rr_tefta_tashko_koco_small.jpg",
-        "large": "foto_ndertesash/villa_2_rr_tefta_tashko_koco.jpg",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.827506,
-          41.329048
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Villa 2 on ’Tefta Tashko Koco’ Street",
         "description": " ",
         "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_2_on_%E2%80%98Rruga_Tefta_Tashko_Koco%E2%80%99",
