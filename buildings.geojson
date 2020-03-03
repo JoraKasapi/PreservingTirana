@@ -181,24 +181,7 @@
         ]
          }
       },
-   {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa 2 ‘Xhorxhi Martini’ Street",
-        "description": " ",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_2_on_Rruga_Xhorxhi_Martini",
-        "image": "foto_ndertesash/small/Villa_2_on_rruga_xhorxhi_martini_small.jpg",
-        "large": "foto_ndertesash/Villa_2_on_rruga_xhorxhi_martini.jpg",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         19.824526,
-          41.328511
-        ]
-      }
-    },
+  
       {
       "type": "Feature",
       "properties": {
@@ -206,6 +189,7 @@
         "description": "The National Theater is also known as The Circle Italian-Albanian ‘Skënderbej’, started as a project when Galeazzo Ciano (that time the minister of Foreign Affairs), commissioned in 1938 the Company ‘Pater Construzioni Edili Speciali’ and it finished it in several months of 1939. The company provided fast realization at a lower price because of the use of prefabricated elements from Milan. It was meant to be a sort of Cultural Center, with a sportive character also with a swimming pool, theater, offices, restaurant and serving as a social meeting point for the citizens. In terms of the volumetric composition, it is organized with two main ‘factory’ type of volumes, symmetric with each other through the main ax and connected through a ‘portico’. Its aesthetic brings to mind a post-futuristic style like the one of Angiolo Mazzonit. The materials used are concrete, wood and some prefabricated panels called 'populit' or ‘patercimento’. The constructive system is made of reinforced concrete very light 12x15cm height 8.5m, high enough to sustain a wooden truss as the roof structure. After the fascist regime, around 1941 it was known as 'Savoja' cinema and, it was re-named as 'Kosova' cinema in 1943 and after 1945 it was known as 'The Popular Theater' also because of the fact that the first trial against the 'state's enemy' was held in there. After 1991 started to be called 'The National Theater', the name that still holds strong today despite all the adversities. On the site of the National Theater which represents a public domain space, through a Public-Private agreement, it's intended to demolish the existing Theater and realize a new one together with several high-rises, mixed-use buildings, a project from the Danish architecture firm BIG. Currently a very contested decision from specialists of the field and the local community.",
         "linked": "More photos of the National and Experimental Theater\nhttps://commons.wikimedia.org/wiki/Category:The_National_Theater",
         "image": "foto_ndertesash/small/National_Theater_small.jpg",
+        
         "large": "foto_ndertesash/National_Theater.jpg",
         "exists": ""
       },
