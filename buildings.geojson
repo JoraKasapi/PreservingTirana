@@ -385,25 +385,6 @@
         ]
       }
     },
-
-      {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa on ‘Papa Gjon Pali II’ Street",
-        "description": " ",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Villa_on_%E2%80%98Papa_Gjon_Pali_II%E2%80%99_Street",
-        "image": "",
-        "large": "",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.822603,
-          41.323134
-        ]
-      }
-    },
       {
       "type": "Feature",
       "properties": {
