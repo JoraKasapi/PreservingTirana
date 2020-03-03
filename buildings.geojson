@@ -202,24 +202,7 @@
         ]
       }
     },
-       {
-      "type": "Feature",
-      "properties": {
-        "name": "House Farka",
-        "description": "Today abandoned, it belonged to Halil Mustafa Farka. Inherited afterward by the two brothers of the Farka family. It is a traditional house made out of adobe bricks and anti-seizmic wooden beams. ",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Villa_on_%27Mihal_Duri%27_Street",
-        "image": "foto_ndertesash/small/Villa_on_the_crossroad_between_Rr.Mihal_Duri_and_Rr.Kont_Urani_small.jpg",
-        "large": "foto_ndertesash/Villa_on_the_crossroad_between_Rr.Mihal_Duri_and_Rr.Kont_Urani.jpg",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         19.81233,
-         41.329454
-        ]
-      }
-    },
+      
        {
       "type": "Feature",
       "properties": {
