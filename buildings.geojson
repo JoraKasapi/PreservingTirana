@@ -146,25 +146,7 @@
         ]
         }
       },
-        {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa 1 ‘Xhorxhi Martini’ Street ",
-        "description": "Monument of second category",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:Villa_1_on_Rruga_Xhorxhi_Martini",
-        "image": "foto_ndertesash/small/Villa_1_on_Rruga_Xhorxhi_Martini_small.jpg",
-        "large": "foto_ndertesash/Villa_1_on_Rruga_Xhorxhi_Martini.jpg",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         19.824183,
-          41.328156
-        ]
-         }
-      },
-  
+    
       {
       "type": "Feature",
       "properties": {
