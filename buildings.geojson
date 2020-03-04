@@ -1001,23 +1001,6 @@
         ]
       }
     },
-           {
-      "type": "Feature",
-      "properties": {
-        "name": "Villa 'Ambasador'",
-        "description": "",
-        "linked": "",
-        "image": "",
-        "large": "",
-        "exists": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.82478,
-          41.31997
-        ]
-      }
     }
 
 
