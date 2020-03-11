@@ -1018,6 +1018,24 @@
           41.32223           
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "name": "Villa along 'Gjeneral Nikols' street",
+        "description": " ",
+        "linked": "More photos of the Villa\n ",
+        "image": "foto_ndertesash/ ",
+        "large": "foto_ndertesash/",
+        "exists": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.83251 ,
+          41.31723            
+        ]
+      }
     }
        
     
