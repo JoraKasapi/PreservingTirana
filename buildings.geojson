@@ -988,7 +988,7 @@
       "properties": {
         "name": "Villa on 'Musa Karapici' street",
         "description": "",
-        "linked": "More photos of the Villa\nhttps://commons.wikimedia.org/wiki/Category:The_former_%27Villa_Ivanaj%27",
+        "linked": "More photos of the Villa\n ",
         "image": "foto_ndertesash/ ",
         "large": "foto_ndertesash/",
         "exists": "no"
@@ -998,6 +998,24 @@
         "coordinates": [
           19.82656,
           41.32946         
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "name": "Villa 'Destil'",
+        "description": " ",
+        "linked": "More photos of the Villa\n ",
+        "image": "foto_ndertesash/ ",
+        "large": "foto_ndertesash/",
+        "exists": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82626,
+          41.32223           
         ]
       }
     }
