@@ -1036,6 +1036,24 @@
           41.31723            
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "House on 'Bardhok Biba' street",
+        "description": " ",
+        "linked": "More photos of the Villa\n ",
+        "image": "foto_ndertesash/ ",
+        "large": "foto_ndertesash/",
+        "exists": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81960 ,
+          41.33006                   
+        ]
+      }
     }
        
     
